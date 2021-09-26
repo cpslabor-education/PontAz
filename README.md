@@ -22,7 +22,8 @@ Labor megrendelője:		Hajdu Csaba
 ## Feladat meghatározása:
 Az első labor során LEGO robot építésével foglalkoztunk. Az alapkoncepció egy differenciális robot megvalósítása volt. A végeredmény az alábbi képe(k)-en látható: 
 
-[![image1](hhh "image1")](https://github.com/robotlabor-education/PontAz/blob/main/image1.jpeg"image1")
+![image1](https://github.com/robotlabor-education/PontAz/blob/main/image1.jpeg "image1")
+![image2](https://github.com/robotlabor-education/PontAz/blob/main/image2.jpeg "image2")
 
 Kivitelezés:
 A roboton két fő actuator (45502) található melyek a mozgásában, elfordulásában segítik azt. A két motorra egy-egy kereket rögzítettünk. Ezek a kerekek külön-külön vezérelhetők, aminek a segítségével kormányozható a robot. Hátsó keréknek egy két kisebb kerékből álló, szabadon forgó szerkezetet építettünk, ami így könnyen követi a robot mozgását. A roboton egy további actuator is helyet kapott (45503) melynek segítségével az Ultrasonic Szenzort (45504) lehet 360° fokban forgatni. Továbbá két másik szenzor, egy nyomás érzékelő (45507), illetve egy RGB szenzor (45506) is helyet kapott rajta.
