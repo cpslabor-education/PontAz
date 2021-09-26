@@ -22,6 +22,13 @@ Labor megrendelője:		Hajdu Csaba
 ## Feladat meghatározása:
 Az első labor során LEGO robot építésével foglalkoztunk. Az alapkoncepció egy differenciális robot megvalósítása volt. A végeredmény az alábbi képe(k)-en látható: 
 
+<p align="center">
+  <img width="500" height="700" src="https://github.com/robotlabor-education/PontAz/blob/main/image1.jpeg " style="transform: rotate(90deg)">
+</p>
+<p align="center">
+  <img width="500" height="700" src="https://github.com/robotlabor-education/PontAz/blob/main/image2.jpeg ">
+</p>
+
 ![image1](https://github.com/robotlabor-education/PontAz/blob/main/image1.jpeg "image1")
 ![image2](https://github.com/robotlabor-education/PontAz/blob/main/image2.jpeg "image2")
 
