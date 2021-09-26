@@ -1,22 +1,22 @@
-# DFFERENCIÁLIS LEGO MOBIL ROBOT
+<h1>DFFERENCIÁLIS DFFERENCIÁLIS LEGO MOBIL ROBOT</h1>
+<table>
+<tr>
+<td>Labor helye:</td>
+<td>Széchenyi István Egyetem, L4-3 laboratórium, 9026 Győr, Egyetem tér 1.</td>
+</tr>
+</table>
 
-Labor helye:				Széchenyi István Egyetem, L4-3 laboratórium,
-9026 Győr, Egyetem tér 1.
-Labor ideje:				2021.09.20.
-Labor tárgya:			Robot építése
-Labort végezte:			Füleki Tamás, Császár Miksa Henrik, Balbach Dominik
-Labor megrendelője:		Hajdu Csaba
-### Csapatnév: PontAz
-#### Tagok:
+<h3>Csapatnév: PontAz</h3>
+<h4>Tagok:</h4>
 <ul>
 <li>Füleki Tamás</li>
 <li>Császár Miksa Henrik</li>
 <li>Balbach Dominik</li>
 </ul>
 
-[testLink](https://www.youtube.com/channel/UCJFZiqLMntJufDCHc6bQixg "TestLink")
+<a href="https://www.youtube.com/channel/UCJFZiqLMntJufDCHc6bQixg" target="_blank" title="TestLink">TestLink</a>
 
-## Használt eszköz(ök)
+<h2>Használt eszköz(ök)</h2>
 
 | Gyártó | Megnevezés  |  Típus |
 | ------------ | ------------ | ------------ |
@@ -26,17 +26,31 @@ Labor megrendelője:		Hajdu Csaba
 | Nyomásérzékelő | LEGO | [45507](https://www.lego.com/en-us/product/ev3-touch-sensor-45507 "45507") |
 | RGB szenzor | LEGO | [45506](https://www.lego.com/en-us/product/ev3-color-sensor-45506 "45506") |
 
-## Feladat meghatározása:
+<ul style="list-style-type:none">
+
+<li><h1>1.Labor</h1>
+
+<h2>Feladat meghatározása:</h2>
+
 Az első labor során LEGO robot építésével foglalkoztunk. Az alapkoncepció egy differenciális robot megvalósítása volt. A végeredmény az alábbi képe(k)-en látható: 
 
 <p align="center">
-  <img width="500" height="700" src="https://github.com/robotlabor-education/PontAz/blob/main/image1.jpeg ">
-</p>
-<p align="center">
-  <img width="500" height="700" src="https://github.com/robotlabor-education/PontAz/blob/main/image2.jpeg ">
+  <img width="500" height="700" src="https://github.com/robotlabor-education/PontAz/blob/main/img/image1.jpeg ">
 </p>
 
-## Kivitelezés:
+<p align="center">
+  <img width="500" height="700" src="https://github.com/robotlabor-education/PontAz/blob/main/img/image2.jpeg ">
+</p>
+
+<h2>Kivitelezés:</h2>
+
 A roboton két fő actuator (**45502**) található melyek a mozgásában, elfordulásában segítik azt. A két motorra egy-egy kereket rögzítettünk. Ezek a kerekek külön-külön vezérelhetők, aminek a segítségével kormányozható a robot. Hátsó keréknek egy két kisebb kerékből álló, szabadon forgó szerkezetet építettünk, ami így könnyen követi a robot mozgását. A roboton egy további actuator is helyet kapott (**45503**) melynek segítségével az Ultrasonic Szenzort (**45504**) lehet 360° fokban forgatni. Továbbá két másik szenzor, egy nyomás érzékelő (**45507**), illetve egy RGB szenzor (**45506**) is helyet kapott rajta.
-## Megfigyelések:
+
+<h2>Megfigyelések:</h2>
+
 A feladat elvégzése során a legnagyobb gondot a kábelmenedzsment okozta. Ezt a problémát végül egy hosszú tartóelemmel oldottuk meg. A kábelek felesleges hosszát a tartóelem köré csavarásával oldottuk meg.
+</li>
+<li><h1>2.Labor</h1></li>
+</ul>
+
+<a href="https://www.youtube.com/channel/UCJFZiqLMntJufDCHc6bQixg" target="_blank" title="TestLink">TestLink</a>
