@@ -40,3 +40,4 @@ A feladat elvégzése során a legnagyobb gondot a kábelmenedzsment okozta. Ezt
 <h1>2.Labor</h1>
 
 <a href="https://www.youtube.com/channel/UCJFZiqLMntJufDCHc6bQixg" target="_blank" title="TestLink">TestLink</a>
+Ubuntu 20.04
