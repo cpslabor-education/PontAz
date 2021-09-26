@@ -1,9 +1,3 @@
-<style>
-.labor_class{
-	list-style-type: none;
-}
-</style>
-
 <h1>DFFERENCIÁLIS DFFERENCIÁLIS LEGO MOBIL ROBOT</h1>
 <table>
 <tr>
@@ -20,8 +14,6 @@
 <li>Balbach Dominik</li>
 </ul>
 
-<a href="https://www.youtube.com/channel/UCJFZiqLMntJufDCHc6bQixg" target="_blank" title="TestLink">TestLink</a>
-
 <h2>Használt eszköz(ök)</h2>
 
 | Gyártó | Megnevezés  |  Típus |
@@ -32,20 +24,15 @@
 | Nyomásérzékelő | LEGO | [45507](https://www.lego.com/en-us/product/ev3-touch-sensor-45507 "45507") |
 | RGB szenzor | LEGO | [45506](https://www.lego.com/en-us/product/ev3-color-sensor-45506 "45506") |
 
-<ul class="labor_class">
-
-<li><h1>1.Labor</h1>
+<h1>1.Labor</h1>
 
 <h2>Feladat meghatározása:</h2>
 
 Az első labor során LEGO robot építésével foglalkoztunk. Az alapkoncepció egy differenciális robot megvalósítása volt. A végeredmény az alábbi képe(k)-en látható: 
 
-<p align="center">
-  <img width="500" height="700" src="https://github.com/robotlabor-education/PontAz/blob/main/img/image1.jpeg ">
-</p>
-
-<p align="center">
-  <img width="500" height="700" src="https://github.com/robotlabor-education/PontAz/blob/main/img/image2.jpeg ">
+<p align="left">
+  <img src="https://github.com/robotlabor-education/PontAz/blob/main/img/image1.jpeg ">
+  <img src="https://github.com/robotlabor-education/PontAz/blob/main/img/image2.jpeg ">
 </p>
 
 <h2>Kivitelezés:</h2>
@@ -55,8 +42,7 @@ A roboton két fő actuator (**45502**) található melyek a mozgásában, elfor
 <h2>Megfigyelések:</h2>
 
 A feladat elvégzése során a legnagyobb gondot a kábelmenedzsment okozta. Ezt a problémát végül egy hosszú tartóelemmel oldottuk meg. A kábelek felesleges hosszát a tartóelem köré csavarásával oldottuk meg.
-</li>
-<li><h1>2.Labor</h1></li>
-</ul>
+
+<h1>2.Labor</h1>
 
 <a href="https://www.youtube.com/channel/UCJFZiqLMntJufDCHc6bQixg" target="_blank" title="TestLink">TestLink</a>
