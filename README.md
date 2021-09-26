@@ -6,6 +6,13 @@ Labor ideje:				2021.09.20.
 Labor tárgya:			Robot építése
 Labort végezte:			Füleki Tamás, Császár Miksa Henrik, Balbach Dominik
 Labor megrendelője:		Hajdu Csaba
+### Csapatnév: PontAz
+#### Tagok:
+<ul>
+<li>Füleki Tamás</li>
+<li>Császár Miksa Henrik</li>
+<li>Balbach Dominik</li>
+</ul>
 
 [testLink](https://www.youtube.com/channel/UCJFZiqLMntJufDCHc6bQixg "TestLink")
 
@@ -23,19 +30,13 @@ Labor megrendelője:		Hajdu Csaba
 Az első labor során LEGO robot építésével foglalkoztunk. Az alapkoncepció egy differenciális robot megvalósítása volt. A végeredmény az alábbi képe(k)-en látható: 
 
 <p align="center">
-  <img width="500" height="700" src="https://github.com/robotlabor-education/PontAz/blob/main/image1.jpeg " style="transform: rotate(90deg)">
+  <img width="500" height="700" src="https://github.com/robotlabor-education/PontAz/blob/main/image1.jpeg ">
 </p>
 <p align="center">
   <img width="500" height="700" src="https://github.com/robotlabor-education/PontAz/blob/main/image2.jpeg ">
 </p>
 
-![image1](https://github.com/robotlabor-education/PontAz/blob/main/image1.jpeg "image1")
-![image2](https://github.com/robotlabor-education/PontAz/blob/main/image2.jpeg "image2")
-
-Kivitelezés:
-A roboton két fő actuator (45502) található melyek a mozgásában, elfordulásában segítik azt. A két motorra egy-egy kereket rögzítettünk. Ezek a kerekek külön-külön vezérelhetők, aminek a segítségével kormányozható a robot. Hátsó keréknek egy két kisebb kerékből álló, szabadon forgó szerkezetet építettünk, ami így könnyen követi a robot mozgását. A roboton egy további actuator is helyet kapott (45503) melynek segítségével az Ultrasonic Szenzort (45504) lehet 360° fokban forgatni. Továbbá két másik szenzor, egy nyomás érzékelő (45507), illetve egy RGB szenzor (45506) is helyet kapott rajta.
-Megfigyelések:
+## Kivitelezés:
+A roboton két fő actuator (**45502**) található melyek a mozgásában, elfordulásában segítik azt. A két motorra egy-egy kereket rögzítettünk. Ezek a kerekek külön-külön vezérelhetők, aminek a segítségével kormányozható a robot. Hátsó keréknek egy két kisebb kerékből álló, szabadon forgó szerkezetet építettünk, ami így könnyen követi a robot mozgását. A roboton egy további actuator is helyet kapott (**45503**) melynek segítségével az Ultrasonic Szenzort (**45504**) lehet 360° fokban forgatni. Továbbá két másik szenzor, egy nyomás érzékelő (**45507**), illetve egy RGB szenzor (**45506**) is helyet kapott rajta.
+## Megfigyelések:
 A feladat elvégzése során a legnagyobb gondot a kábelmenedzsment okozta. Ezt a problémát végül egy hosszú tartóelemmel oldottuk meg. A kábelek felesleges hosszát a tartóelem köré csavarásával oldottuk meg.
-[gdfg]: http://dgdfgdf "gdfgd"
-
-https://www.youtube.com/channel/UCJFZiqLMntJufDCHc6bQixg
