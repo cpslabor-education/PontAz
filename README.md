@@ -1,3 +1,9 @@
+<style>
+.labor_class{
+	list-style-type: none;
+}
+</style>
+
 <h1>DFFERENCIÁLIS DFFERENCIÁLIS LEGO MOBIL ROBOT</h1>
 <table>
 <tr>
@@ -26,7 +32,7 @@
 | Nyomásérzékelő | LEGO | [45507](https://www.lego.com/en-us/product/ev3-touch-sensor-45507 "45507") |
 | RGB szenzor | LEGO | [45506](https://www.lego.com/en-us/product/ev3-color-sensor-45506 "45506") |
 
-<ul style="list-style-type:none">
+<ul class="labor_class">
 
 <li><h1>1.Labor</h1>
 
