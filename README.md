@@ -1,10 +1,4 @@
-<h1>DFFERENCIÁLIS DFFERENCIÁLIS LEGO MOBIL ROBOT</h1>
-<table>
-<tr>
-<td>Labor helye:</td>
-<td>Széchenyi István Egyetem, L4-3 laboratórium, 9026 Győr, Egyetem tér 1.</td>
-</tr>
-</table>
+<h1>DIFFERENCIÁLIS LEGO MOBIL ROBOT</h1>
 
 <h3>Csapatnév: PontAz</h3>
 <h4>Tagok:</h4>
