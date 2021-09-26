@@ -31,8 +31,8 @@
 Az első labor során LEGO robot építésével foglalkoztunk. Az alapkoncepció egy differenciális robot megvalósítása volt. A végeredmény az alábbi képe(k)-en látható: 
 
 <p align="left">
-  <img src="https://github.com/robotlabor-education/PontAz/blob/main/img/image1.jpeg ">
-  <img src="https://github.com/robotlabor-education/PontAz/blob/main/img/image2.jpeg ">
+  <img width="300" src="https://github.com/robotlabor-education/PontAz/blob/main/img/image1.jpeg ">
+  <img width="300" src="https://github.com/robotlabor-education/PontAz/blob/main/img/image2.jpeg ">
 </p>
 
 <h2>Kivitelezés:</h2>
