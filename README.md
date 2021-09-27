@@ -10,7 +10,7 @@
 
 <h2>Használt eszköz(ök)</h2>
 
-| Gyártó | Megnevezés  |  Típus |
+| Megnevezés | Gyártó  |  Típus |
 | ------------ | ------------ | ------------ |
 | DC motor | LEGO | [45502](https://www.lego.com/en-us/product/ev3-large-servo-motor-45502 "45502") |
 | DC motor | LEGO | [45503](https://www.lego.com/en-us/product/ev3-medium-servo-motor-45503 "45503") |
@@ -39,5 +39,5 @@ A feladat elvégzése során a legnagyobb gondot a kábelmenedzsment okozta. Ezt
 
 <h1>2.Labor</h1>
 
-<a href="https://www.youtube.com/channel/UCJFZiqLMntJufDCHc6bQixg" target="_blank" title="TestLink">TestLink</a>
+<a href="https://www.duckduckgo.com" target="_blank" title="TestLink">TestLink</a>
 Ubuntu 20.04
