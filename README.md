@@ -64,7 +64,7 @@ A két szenzorból (Szervó motor **45503**, Ultrahangos érzékelő **45504**) 
 Elkezdtük a robot programozását is. A szenzorok tesztelése után egyszerűbb mozgássorozatokat definiáltunk. Egy 2 másodperces előre történő, 50%-os sebességű mozgást követően az ultrahangos szenzort ±90°-ban elforgattuk. Ezt követően azt szerettük volna elérni, hogy a nyomásérzékelő, valamint az ultrahangos szenzorok segítségével megfelelő feltételek teljesülése mellett előre-hátra mozgást végezzen a robot.
 
 <p align="left">
-  <img width="300" src="https://github.com/robotlabor-education/PontAz/blob/main/img/image5.jpeg ">
+  <img width="300" src="https://github.com/robotlabor-education/PontAz/blob/main/img/image5.png ">
 </p>
 
 <h2>Megfigyelések:</h2>
