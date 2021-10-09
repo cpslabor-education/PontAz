@@ -39,5 +39,44 @@ A feladat elvégzése során a legnagyobb gondot a kábelmenedzsment okozta. Ezt
 
 <h1>2.Labor</h1>
 
-<a href="https://www.duckduckgo.com" target="_blank" title="TestLink">TestLink</a>
+<h2>Feladat meghatározása:</h2>
+
+A második labor során a robot továbbfejlesztése, valamint a felprogramozás elkezdése volt a cél. Az eredményt az alábbi képeken lehet megtekinteni:
+
+<p align="left">
+  <img width="300" src="https://github.com/robotlabor-education/PontAz/blob/main/img/image3.jpeg ">
+  <img width="300" src="https://github.com/robotlabor-education/PontAz/blob/main/img/image4.jpeg ">
+</p>
+
+<h2>Kivitelezés:</h2>
+
+A robot vázát tekintve két fő fejlesztést hajtottunk végre:
+
+<ul>
+<li>Hátsó lökhárító</li>
+<li>A "fej" stabilitása</li>
+</ul>
+
+A hátsó löghárító a nyomásérzékelő (**45507**) szenzor miatt került kivitelezésre. A szenzor önmagában csak egy kis ponton képes érzékelni, ezért kibővítettük az érzékelési tartományt. Egy összetett vízszintes szerkezetet rögzítettünk a nyomógombhoz, ami így a robot teljes szélességében képes érzékelni a hátulról történő ütközéseket.
+
+A két szenzorból (Szervó motor **45503**, Ultrahangos érzékelő **45504**) álló "fej" kezdetben a legkisebb mozgásokra is érzékenyen reagált. Az állandó rezgések miatt nem lehetett pontos adatokat kinyerni az ultrahangos szenzorból, ezért a tartásuk stabilitásán dolgoztunk. Több ponton rögzítettük a rendszert, ezzel sikeresen csökkentve a rezgéseket.
+
+Elkezdtük a robot programozását is. A szenzorok tesztelése után egyszerűbb mozgássorozatokat definiáltunk. Egy 2 másodperces előre történő, 50%-os sebességű mozgást követően az ultrahangos szenzort ±90°-ban elforgattuk. Ezt követően azt szerettük volna elérni, hogy a nyomásérzékelő, valamint az ultrahangos szenzorok segítségével megfelelő feltételek teljesülése mellett előre-hátra mozgást végezzen a robot.
+
+<p align="left">
+  <img width="300" src="https://github.com/robotlabor-education/PontAz/blob/main/img/image5.jpeg ">
+</p>
+
+<h2>Megfigyelések:</h2>
+
+A labor során a programozás okozott némi nehézséget, ugyanis a programunk második fele nem az elvárásainknak megfelelően működött. Ezen a téren további munka szükséges.
+
+
+
+
+
+
+
+
+
 Ubuntu 20.04
