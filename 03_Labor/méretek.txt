@@ -1,0 +1,17 @@
+
+	  		Stud 		mm		Rajzon név
+Szélesség: 		26		208
+			19		152
+			9.5		76				
+Hossuúság: 		38		304		
+Tengelytáv: 		20.75		166
+Kerék átmérő: 		7		56
+			3.5		28
+Kerék vastagság:	3.5		28
+Tengely táv hátul:	31		248
+Tengely táv elől:	7		56
+Kerék kerület:		21.98		175.923
+Futó felület hossza:	21.98		175.923
+Futó felület széle:	3.5		28
+
+Hátsó kerék poz: 	28 		224
