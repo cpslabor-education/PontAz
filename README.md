@@ -72,7 +72,9 @@ Elkezdtük a robot programozását is. A szenzorok tesztelése után egyszerűbb
 
 A labor során a programozás okozott némi nehézséget, ugyanis a programunk második fele nem az elvárásainknak megfelelően működött. Ezen a téren további munka szükséges.
 
+<h1>3.Labor</h1>
 
+<h1>4.Labor</h1>
 
 
 
