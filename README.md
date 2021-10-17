@@ -12,8 +12,8 @@
 
 | Megnevezés          | Gyártó | Típus                                                                            | Továbbiakban  |
 | ------------------- | ------ | -------------------------------------------------------------------------------- | ------------- |
-| Szervo motor            | LEGO   | [45502](https://www.lego.com/en-us/product/ev3-large-servo-motor-45502 "45502")  | **A**, **D**  |
-| Szervo motor            | LEGO   | [45503](https://www.lego.com/en-us/product/ev3-medium-servo-motor-45503 "45503") | **C**         |
+| Large Szervo motor            | LEGO   | [45502](https://www.lego.com/en-us/product/ev3-large-servo-motor-45502 "45502")  | **A**, **D**  |
+| Medium Szervo motor            | LEGO   | [45503](https://www.lego.com/en-us/product/ev3-medium-servo-motor-45503 "45503") | **C**         |
 | Ultrahangos szenzor | LEGO   | [45504](https://www.lego.com/en-us/product/ev3-ultrasonic-sensor-45504 "45504")  | **1.szenzor** |
 | Nyomásérzékelő      | LEGO   | [45507](https://www.lego.com/en-us/product/ev3-touch-sensor-45507 "45507")       | **2.szenzor** |
 | RGB szenzor         | LEGO   | [45506](https://www.lego.com/en-us/product/ev3-color-sensor-45506 "45506")       | **3.szenzor** |
@@ -95,11 +95,11 @@ A kisebb feladatok programjai alább láthatóak:
 
 **3.Feladat:** Önálló feladat végrehajtása:
 
-Az önálló feladat alap koncepciója a robot kivitelezésén alapszik. A robot halad egyenesen, miközben a ’fej’ körbepásztázza az előtte lévő teret. Ha a fej érzékel, a robot elkezd hátrálni. A gondok akkor kezdődnek, ha ’fej’ nem előre néz, mivel tudnunk kell a ’fej’ elfordulását és az 1.szenzor érzékelt távolságát, majd ebből kiszámítani a hátráláshoz szükséges pontos irányokat. 
+Az önálló feladat alap koncepciója a robot kivitelezésén alapszik. A robot halad egyenesen, miközben a "fej" körbepásztázza az előtte lévő teret. Ha a fej érzékel, a robot elkezd hátrálni. A gondok akkor kezdődnek, ha "fej" nem előre néz, mivel tudnunk kell a "fej" elfordulását és az 1.szenzor érzékelt távolságát, majd ebből kiszámítani a hátráláshoz szükséges pontos irányokat. 
 
-A megoldás az volt, hogy a ’fej’ forgását 10 egységre osztottuk, majd minden egységben egyszer megmértük a távolságot. Minden mérés után a motor szögelfordulásából és az 1.szenzor értekéből kiszámítottuk, hogy a robot egyenesen, jobbra vagy balra fog hátrálni, illetve hogy hány fokos szögben kell elfordulnia.
+A megoldás az volt, hogy a "fej" forgását 10 egységre osztottuk, majd minden egységben egyszer megmértük a távolságot. Minden mérés után a motor szögelfordulásából és az **1.szenzor** értekéből kiszámítottuk, hogy a robot egyenesen, jobbra vagy balra fog hátrálni, illetve hogy hány fokos szögben kell elfordulnia.
 
-Az adatok megszerzése után továbbítottuk őket a második szálnak, ami a robot mozgásáért volt felelős. A szál egy irányértéket és egy számnagyságot kap. Az irányértéknek megfelelően vezérli a mozgásért felelős servokat (A, D), illetve a számnagyság alapján a sebességüket. 
+Az adatok megszerzése után továbbítottuk őket a második szálnak, ami a robot mozgásáért volt felelős. A szál egy irányértéket és egy számnagyságot kap. Az irányértéknek megfelelően vezérli a mozgásért felelős servokat (**A**, **D**), illetve a számnagyság alapján a sebességüket. 
 
 <h2>Önálló feladat magyarázat:</h2>
 
@@ -111,7 +111,7 @@ Az első függvény a "fej"-et forgató motor (**C**) kalibrálására szolgál.
   <img width="300" src="https://github.com/robotlabor-education/PontAz/blob/main/img/8.png ">
 </p>
 
-Működése:
+**Működése:**
 
 A motor elindítjuk 30%-os sebességgel, majd 0.01 másodpercenként megnézzük, hogy a motor sebessége lecsökkent-e 10% alá, ha igen akkor feltételezhetjük, hogy a motor megállt, illetve nekiütközött valaminek. Miután megállt, elforgatjuk 90 fokot, hogy a "fej" pontosan középen legyen és előre nézzen. 
 
@@ -131,7 +131,7 @@ A harmadik függvény a "fej"-et forgató motor (**C**), illetve az 1.szenzor é
   <img width="300" src="https://github.com/robotlabor-education/PontAz/blob/main/img/10.png ">
 </p>
 
-Működése:
+**Működése:**
 
 A függvénybe bekérünk 6 adatot, melyből az első kettő a negatív tartományt, a második kettő az **1.szenzor** érzékelési tartományát, az utolsó kettő a pozitív tartományt határozza meg.
 
@@ -156,7 +156,7 @@ A main loop elején inicializáljuk a változó tömböt, és beállítjuk a rob
   <img width="300" src="https://github.com/robotlabor-education/PontAz/blob/main/img/11.png ">
 </p>
 
-A programunk egy végtelenített ciklusban fut, melyben először körbeforgatjuk a 'fej'-et az inicializált tömbbel. Ezt úgy valósítottuk meg, hogy egy while loop-al a 'radar_loop_i' változó értékét növeljük, mellyel végig iterálunk a tömbön. Közben figyeljük az **1.szenzor** értékét, és ha az 25-nél kisebb akkor lelassítjuk a (**C**) motor sebességét, így olyan hatást érünk el, mintha a "fej" követné az előtte lévő tárgyat. Miután a "fej" elfordult egy egységet a 'radar_loop_i' változó értékét növeljük, majd előjegyezzük a második szálat, így párhuzamos futás érhető el.
+A programunk egy végtelenített ciklusban fut, melyben először körbeforgatjuk a "fej"-et az inicializált tömbbel. Ezt úgy valósítottuk meg, hogy egy while loop-al a 'radar_loop_i' változó értékét növeljük, mellyel végig iterálunk a tömbön. Közben figyeljük az **1.szenzor** értékét, és ha az 25-nél kisebb akkor lelassítjuk a (**C**) motor sebességét, így olyan hatást érünk el, mintha a "fej" követné az előtte lévő tárgyat. Miután a "fej" elfordult egy egységet a 'radar_loop_i' változó értékét növeljük, majd előjegyezzük a második szálat, így párhuzamos futás érhető el.
 
 <p align="left">
   <img width="300" src="https://github.com/robotlabor-education/PontAz/blob/main/img/12.png ">
@@ -186,6 +186,7 @@ Ha a visszakapott érték 0 akkor a robot előre halad 20%-os sebességgel.
 </p>
 
 <h1>4.Labor</h1>
+<><>
 
 
 
