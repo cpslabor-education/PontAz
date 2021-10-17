@@ -12,8 +12,8 @@
 
 | Megnevezés          | Gyártó | Típus                                                                            | Továbbiakban  |
 | ------------------- | ------ | -------------------------------------------------------------------------------- | ------------- |
-| DC motor            | LEGO   | [45502](https://www.lego.com/en-us/product/ev3-large-servo-motor-45502 "45502")  | **A**, **D**  |
-| DC motor            | LEGO   | [45503](https://www.lego.com/en-us/product/ev3-medium-servo-motor-45503 "45503") | **C**         |
+| Szervo motor            | LEGO   | [45502](https://www.lego.com/en-us/product/ev3-large-servo-motor-45502 "45502")  | **A**, **D**  |
+| Szervo motor            | LEGO   | [45503](https://www.lego.com/en-us/product/ev3-medium-servo-motor-45503 "45503") | **C**         |
 | Ultrahangos szenzor | LEGO   | [45504](https://www.lego.com/en-us/product/ev3-ultrasonic-sensor-45504 "45504")  | **1.szenzor** |
 | Nyomásérzékelő      | LEGO   | [45507](https://www.lego.com/en-us/product/ev3-touch-sensor-45507 "45507")       | **2.szenzor** |
 | RGB szenzor         | LEGO   | [45506](https://www.lego.com/en-us/product/ev3-color-sensor-45506 "45506")       | **3.szenzor** |
