@@ -1,0 +1,4 @@
+[console_scripts]
+pid = pontaz.pid:main
+robot = pontaz.robot:main
+

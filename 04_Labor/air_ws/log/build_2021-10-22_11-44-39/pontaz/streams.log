@@ -1,0 +1,27 @@
+[0.338s] Invoking command in '/home/tom/air_ws/src/pontaz': PYTHONPATH=/home/tom/air_ws/install/pontaz/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pontaz build --build-base /home/tom/air_ws/build/pontaz/build install --prefix /home/tom/air_ws/install/pontaz --record /home/tom/air_ws/build/pontaz/install.log --single-version-externally-managed
+[0.608s] /home/tom/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.609s]   warnings.warn(
+[0.609s] /home/tom/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[0.609s]   warnings.warn(
+[0.636s] running egg_info
+[0.636s] writing ../../build/pontaz/pontaz.egg-info/PKG-INFO
+[0.637s] writing dependency_links to ../../build/pontaz/pontaz.egg-info/dependency_links.txt
+[0.637s] writing entry points to ../../build/pontaz/pontaz.egg-info/entry_points.txt
+[0.637s] writing requirements to ../../build/pontaz/pontaz.egg-info/requires.txt
+[0.637s] writing top-level names to ../../build/pontaz/pontaz.egg-info/top_level.txt
+[0.640s] reading manifest file '../../build/pontaz/pontaz.egg-info/SOURCES.txt'
+[0.641s] writing manifest file '../../build/pontaz/pontaz.egg-info/SOURCES.txt'
+[0.641s] running build
+[0.642s] running build_py
+[0.642s] running install
+[0.643s] running install_lib
+[0.644s] running install_data
+[0.645s] copying package.xml -> /home/tom/air_ws/install/pontaz/share/pontaz
+[0.645s] running install_egg_info
+[0.647s] removing '/home/tom/air_ws/install/pontaz/lib/python3.8/site-packages/pontaz-0.0.0-py3.8.egg-info' (and everything under it)
+[0.647s] Copying ../../build/pontaz/pontaz.egg-info to /home/tom/air_ws/install/pontaz/lib/python3.8/site-packages/pontaz-0.0.0-py3.8.egg-info
+[0.648s] running install_scripts
+[0.666s] Installing pid script to /home/tom/air_ws/install/pontaz/lib/pontaz
+[0.666s] Installing robot script to /home/tom/air_ws/install/pontaz/lib/pontaz
+[0.667s] writing list of installed files to '/home/tom/air_ws/build/pontaz/install.log'
+[0.688s] Invoked command in '/home/tom/air_ws/src/pontaz' returned '0': PYTHONPATH=/home/tom/air_ws/install/pontaz/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pontaz build --build-base /home/tom/air_ws/build/pontaz/build install --prefix /home/tom/air_ws/install/pontaz --record /home/tom/air_ws/build/pontaz/install.log --single-version-externally-managed

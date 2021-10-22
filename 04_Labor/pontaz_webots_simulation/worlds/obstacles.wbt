@@ -1,0 +1,126 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.7033198989117498 0.6893923125412466 0.1734340197417976 0.7462847528772949
+  position 0.8458951591993171 1.1860234636315623 1.6966736120349681
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  size 1 1
+}
+WoodenBox {
+  translation 0.324158 0.05 0.19135
+  rotation 0 1 0 -2.8797953071795863
+  size 0.1 0.1 0.1
+  mass 0.05
+}
+WoodenBox {
+  translation -0.311956 0.05 0.321217
+  rotation 0 1 0 -0.523595307179586
+  name "wooden box(1)"
+  size 0.1 0.1 0.1
+  mass 0.05
+}
+WoodenBox {
+  translation -0.311956 0.27 0.321217
+  rotation 0 1 0 -0.523595307179586
+  name "wooden box(3)"
+  size 0.1 0.1 0.1
+  mass 0.05
+}
+WoodenBox {
+  translation -0.226956 0.27 0.173995
+  rotation 0 1 0 -0.523595307179586
+  name "wooden box(4)"
+  size 0.1 0.1 0.1
+  mass 0.05
+}
+WoodenBox {
+  translation -0.161956 0.27 0.0614115
+  rotation 0 1 0 -0.523595307179586
+  name "wooden box(5)"
+  size 0.1 0.1 0.1
+  mass 0.05
+}
+E-puck {
+}
+Solid {
+  translation 0 0.2 -0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry DEF BALL_GEOMETRY Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  boundingObject USE BALL_GEOMETRY
+  physics Physics {
+  }
+}
+Solid {
+  translation 0 0.05 0.5
+  children [
+    DEF WALL_SHAPE Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 1 0.1 0.01
+      }
+    }
+  ]
+  name "solid(1)"
+  boundingObject USE WALL_SHAPE
+}
+Solid {
+  translation 0 0.05 -0.49
+  children [
+    DEF WALL_SHAPE Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 1 0.1 0.01
+      }
+    }
+  ]
+  name "solid(2)"
+  boundingObject USE WALL_SHAPE
+}
+Solid {
+  translation -0.50534 0.05 0.00871608
+  rotation 0 -1 0 1.5708
+  children [
+    DEF WALL_SHAPE Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 1 0.1 0.01
+      }
+    }
+  ]
+  name "solid(3)"
+  boundingObject USE WALL_SHAPE
+}
+Solid {
+  translation 0.50466 0.05 0.00872004
+  rotation 0 -1 0 1.5708
+  children [
+    DEF WALL_SHAPE Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 1 0.1 0.01
+      }
+    }
+  ]
+  name "solid(4)"
+  boundingObject USE WALL_SHAPE
+}
