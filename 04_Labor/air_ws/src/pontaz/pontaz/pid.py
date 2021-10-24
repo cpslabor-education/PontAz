@@ -19,7 +19,8 @@
 # | topic_08: | TouchSensor   | 0                      | bool                  |
 # | topic_09: | RGBSensor     | tuple(0, 0, 0)         | 0 -4096               |
 # | topic_99: | ............. | ...................... | 999999999 - 999999999 |
-#
+# 
+# The send and receive functions are dinamycal so you don't need to write a couple of same code
 #
 #
 # Created by: Füleki Tamás 2021.10.20
@@ -28,7 +29,11 @@ from numpy.core.fromnumeric import var
 import rclpy
 from rclpy.node import Node
 
-from std_msgs.msg import String, Float64, Int32, Bool
+from std_msgs.msg import String,\
+                         Float64,\
+                         Int32,\
+                         Bool,\
+                         Int8
 import numpy as np
 
 import matplotlib.pyplot as plt
@@ -40,6 +45,8 @@ def myMap(value, leftMin, leftMax, rightMin, rightMax):
     valueScaled = float(value - leftMin) / float(leftSpan)
     return rightMin + (valueScaled * rightSpan)
 
+
+
 class Pid(Node):
 
     def __init__(self):
@@ -48,21 +55,29 @@ class Pid(Node):
         #subscription = node.create_subscription(
         #String, 'topic', lambda msg: node.get_logger().info('I heard: "%s"' % msg.data), 10)
 
-        self.sub_01 = self.create_subscription(Float64, 'amotorspeed', self.listener_callback_as, 10)
-        self.sub_02 = self.create_subscription(Float64, 'amotordeg', self.listener_callback_ad, 10)
-        self.sub_03 = self.create_subscription(Float64, 'bmotorspeed', self.listener_callback_bs, 10)
-        self.sub_04 = self.create_subscription(Float64, 'bmotordeg', self.listener_callback_bd, 10)
-        self.sub_05 = self.create_subscription(Float64, 'cmotorspeed', self.listener_callback_cs, 10)
-        self.sub_06 = self.create_subscription(Float64, 'cmotordeg', self.listener_callback_cd, 10)
-        self.sub_07 = self.create_subscription(Int32, 'ultrasonicraw', self.listener_callback_ul, 10)
-        self.sub_08 = self.create_subscription(Bool, 'touchsensor', self.listener_callback_ts, 10)
-        self.sub_09 = self.create_subscription(Int32, 'rgbsensor_r', self.listener_callback_cr, 10)
-        self.sub_10 = self.create_subscription(Int32, 'rgbsensor_g', self.listener_callback_cg, 10)
-        self.sub_11 = self.create_subscription(Int32, 'rgbsensor_b', self.listener_callback_cb, 10)
-        
-        self.timer = self.create_timer(0.5, self.compute_data)
+        # Init subscribers
 
-        self.sub_01  # prevent unused variable warning
+        self.sub_01 = self.create_subscription(Float64, 'get_amotorspeed', self.listener_callback_as, 10)
+        self.sub_02 = self.create_subscription(Float64, 'get_amotordeg', self.listener_callback_ad, 10)
+        self.sub_03 = self.create_subscription(Float64, 'get_bmotorspeed', self.listener_callback_bs, 10)
+        self.sub_04 = self.create_subscription(Float64, 'get_bmotordeg', self.listener_callback_bd, 10)
+        self.sub_05 = self.create_subscription(Float64, 'get_cmotorspeed', self.listener_callback_cs, 10)
+        self.sub_06 = self.create_subscription(Float64, 'get_cmotordeg', self.listener_callback_cd, 10)
+        self.sub_07 = self.create_subscription(Int32, 'get_ultrasonicraw', self.listener_callback_ul, 10)
+        self.sub_08 = self.create_subscription(Bool, 'get_touchsensor', self.listener_callback_ts, 10)
+        self.sub_09 = self.create_subscription(Int32, 'get_rgbsensor_r', self.listener_callback_cr, 10)
+        self.sub_10 = self.create_subscription(Int32, 'get_rgbsensor_g', self.listener_callback_cg, 10)
+        self.sub_11 = self.create_subscription(Int32, 'get_rgbsensor_b', self.listener_callback_cb, 10)
+        
+        # Init publishers
+
+        self.pub_01 = self.create_publisher(Int8, 'set_direction', 10)
+        self.pub_02 = self.create_publisher(Float64, 'set_speed', 10)
+        self.pub_03 = self.create_publisher(Int32, 'set_ul_real', 10)
+
+        self.timer = self.create_timer(0.2, self.compute_data)
+
+        #self.sub_01  # prevent unused variable warning
         
         self._as = [0]
         self._ad = [0]
@@ -111,8 +126,16 @@ class Pid(Node):
         self._cb.append(msg.data)
         self._cb = self._cb[-9:]
 
+    def sendPub(self, where, type, msg):
+        obj = type()
+        obj.data = msg
+        #method = getattr(Pid.__init__, where)
+        #print(type(where))
+        where.publish(obj)
 
-    def computeLogger(self, variables, command, names=None): # self, variable, command
+
+
+    def computeLogger(self, variables, command, names=None, ret=None): # self, variable, command
         #arg_list = [*args]
         #variable = arg_list[0]
         #command = arg_list[1]
@@ -128,6 +151,15 @@ class Pid(Node):
             trans_data = command(variables)
             self.get_logger().info(f'Trans data of {name}: "{trans_data}"')
             self.get_logger().info('--------------------------------------------------------------------------')
+
+        if ret != None:
+            self.get_logger().info('Response sent!')
+            if ret.__len__() > 1:
+                for i in range(ret.__len__()):
+                    ret[i][0](ret[i][1], ret[i][2], trans_data[i])
+            else:
+                ret[0][0](ret[0][1], ret[0][2], trans_data)
+        
 
     def ul_raw_to_real(self, raw):
         return int(myMap(raw, 0.0, 4096.0, 0.0, 255.0))
@@ -148,14 +180,17 @@ class Pid(Node):
         h_n_v = 1 if d_v and high_b else 0
         i = l_n_v - h_n_v
         if i == 1:
-            return "Left_Back_at_"+str(variables[0][-1])+"_speed"
+            #return "Left_Back_at_"+str(variables[0][-1])+"_speed"
+            return (1, variables[0][-1]-30.0, ul_real)
         elif i == -1:
-            return "Right_Back_at_"+str(variables[0][-1])+"_speed"
+            #return "Right_Back_at_"+str(variables[0][-1])+"_speed"
+            return (-1, variables[0][-1]-30.0, ul_real)
         elif i == 0:
-            return "Back_at_"+str(variables[0][-1])+"_speed"
+            #return "Back_at_"+str(variables[0][-1])+"_speed"
+            return (0, variables[0][-1]-30.0, ul_real)
         else:
-            return "Straight"
-
+            #return "Straight"
+            return (3, 100.0, ul_real)
 
 
 
@@ -187,7 +222,11 @@ class Pid(Node):
         self.computeLogger(
             [self._cd, self._ul],
             self.get_degrees_and_distance,
-            names=["Head"]
+            names=["Head"],
+            ret=[[self.sendPub, self.pub_01, Int8],
+                 [self.sendPub, self.pub_02, Float64],
+                 [self.sendPub, self.pub_03, Int32]
+            ]
         )
     
         
