@@ -194,4 +194,5 @@ Ha a visszakapott érték 0 akkor a robot előre halad 20%-os sebességgel.
 
 
 
+
 Ubuntu 20.04

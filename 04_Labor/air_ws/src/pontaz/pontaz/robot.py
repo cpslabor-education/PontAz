@@ -45,7 +45,7 @@ import sys
 
 #from pontaz.msg import Num
 
-def genSin(res, j=1):
+def genSin(res, j=1): # impact
     x = np.linspace(-np.pi, np.pi, res)
     y = np.sin(x*j)
     return (x, y)
@@ -77,9 +77,12 @@ class Robot(Node):
         self.topic_11 = self.create_publisher(Int32,   'get_rgbsensor_b',    10)
 
         # inintalize subscribers
-        self.sub_01 = self.create_subscription(Int8, 'set_direction', self.listen_set_direction, 10)
-        self.sub_02 = self.create_subscription(Float64, 'set_speed', self.listen_set_speed, 10)
-        self.sub_03 = self.create_subscription(Int32, 'set_ul_real', self.listen_set_ul, 10)
+        self.sub_01 = self.create_subscription(Int8,\
+            'set_direction', self.listen_set_direction, 10)
+        self.sub_02 = self.create_subscription(Float64,\
+            'set_speed', self.listen_set_speed, 10)
+        self.sub_03 = self.create_subscription(Int32,\
+            'set_ul_real', self.listen_set_ul, 10)
 
         # self.publisher_ul = self.create_publisher(Float64, 'ul', 10)
         # timer sends packets in every 0.5 seconds
