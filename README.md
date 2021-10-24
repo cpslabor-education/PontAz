@@ -208,7 +208,7 @@ melyeket 0.5 másodpercenként továbbítunk a pid node-nak, illetve kiírjuk az
 
 [Link a robot.py-hez](https://219.235.251.164/media/pi/16TB/deemix_dl/MusicLab(Future_Garage)/456_-_Azaleh_-_Moonlight_(Original_Mix).flac "robot.py")
 
-<pre><code>
+```python
 from numpy.core.records import array
 import rclpy
 from rclpy.node import Node
@@ -227,7 +227,7 @@ import numpy as np
 import random
 
 import sys
-</code></pre>
+```
 
 
 
