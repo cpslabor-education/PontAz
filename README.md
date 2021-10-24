@@ -186,8 +186,48 @@ Ha a visszakapott érték 0 akkor a robot előre halad 20%-os sebességgel.
 </p>
 
 <h1>4.Labor</h1>
-<><>
 
+<h2>Feladat meghatározása:</h2>
+
+1.Egy saját ROS2 package létrehozása, amelyben legalább kettő Python-alapú node legyen,
+az egyik node szabadon választott szabályozást valósít meg, míg a többi csomópont a robot
+szenzor-aktuátor interfészét valósítja meg.
+
+2.Webots nevű szimulátorban kell egy robotot létrehozni, ami legalább két kerekű.
+
+<h2>Kivitelezés:</h2>
+
+**1.Feladat:**
+
+<p>A ROS2 package két node-ból áll, az egyiket robot-nak, a másikat pid-nek hívják.</p>
+<p>A robot node az előzőekben megépített LEGO robotunkat szimulálja.</p>
+A robot 11 tonikot tartalmaz, melyek a különböző szenzorokat, illetve motorokat
+reprezentálják. A node ezeknek a szenzoroknak megfelelően generál véletlenszerű adatokat,
+melyeket 0.5 másodpercenként továbbítunk a pid node-nak, illetve kiírjuk az elküldött
+értéküket.
+
+[Link a robot.py-hez](https://219.235.251.164/media/pi/16TB/deemix_dl/MusicLab(Future_Garage)/456_-_Azaleh_-_Moonlight_(Original_Mix).flac "robot.py")
+
+<pre><code>
+from numpy.core.records import array
+import rclpy
+from rclpy.node import Node
+
+import random
+from std_msgs.msg import String,\
+                         Float64,\
+                         Bool,\
+                         Int32MultiArray,\
+                         Int64,\
+                         Int32,\
+                         Float64MultiArray,\
+                         Int8
+
+import numpy as np
+import random
+
+import sys
+</code></pre>
 
 
 
