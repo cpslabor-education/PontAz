@@ -714,13 +714,13 @@ if __name__ == '__main__':
 
 Képek az elkészült robotról:
 
-<img width="300" src="https://github.com/robotlabor-education/PontAz/blob/main/04_Labor/img/wb01.png">
-<img width="300" src="https://github.com/robotlabor-education/PontAz/blob/main/04_Labor/img/wb02.png">
+<img width="600" src="https://github.com/robotlabor-education/PontAz/blob/main/04_Labor/img/wb01.png">
+<img width="600" src="https://github.com/robotlabor-education/PontAz/blob/main/04_Labor/img/wb02.png">
 
-<img width="300" src="https://github.com/robotlabor-education/PontAz/blob/main/04_Labor/img/wb03.png">
+<img width="600" src="https://github.com/robotlabor-education/PontAz/blob/main/04_Labor/img/wb03.png">
 <p>A piros-zöld robot 2 távolságmérővel van ellátva, ha falhoz, vagy egyéb objektumhoz közelít,
 akkor hátrál és megfordul. A narancs-sárga robot az a,w,s,d gombokkal irányítható.</p>
-<img width="300" src="https://github.com/robotlabor-education/PontAz/blob/main/04_Labor/img/wb04.png">
+<img width="600" src="https://github.com/robotlabor-education/PontAz/blob/main/04_Labor/img/wb04.png">
 
 
 [Link a Webots PROTO-hoz](https://github.com/robotlabor-education/PontAz/blob/main/04_Labor/pontaz_webots_simulation/protos/FourWheelsRobot.proto "robot.py")
