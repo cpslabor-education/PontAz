@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/tom/air_repo/PontAz/05_Labor/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/tom/air_repo/PontAz/05_Labor/catkin_ws/install -G Unix Makefiles

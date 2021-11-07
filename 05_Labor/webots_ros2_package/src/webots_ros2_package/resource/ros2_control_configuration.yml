@@ -1,0 +1,48 @@
+<ros2_control name="RRBotSystemPositionOnly" type="system">
+ <hardware>
+   <plugin>ros2_control_demo_hardware/RRBotSystemPositionOnlyHardware</plugin>
+   <param name="example_param_write_for_sec">2</param>
+   <param name="example_param_read_for_sec">2</param>
+ </hardware>
+ <joint name="joint1">
+   <command_interface name="position">
+     <param name="min">-1</param>
+     <param name="max">1</param>
+   </command_interface>
+   <state_interface name="position"/>
+ </joint>
+ <joint name="joint2">
+   <command_interface name="position">
+     <param name="min">-1</param>
+     <param name="max">1</param>
+   </command_interface>
+   <state_interface name="position"/>
+ </joint>
+</ros2_control>
+<ros2_control name="RRBotForceTorqueSensor1D" type="sensor">
+ <hardware>
+   <plugin>ros2_control_demo_hardware/ForceTorqueSensor1DHardware</plugin>
+   <param name="example_param_read_for_sec">0.43</param>
+ </hardware>
+ <sensor name="tcp_fts_sensor">
+   <state_interface name="force"/>
+   <param name="frame_id">rrbot_tcp</param>
+   <param name="min_force">-100</param>
+   <param name="max_force">100</param>
+ </sensor>
+</ros2_control>
+<ros2_control name="RRBotGripper" type="actuator">
+ <hardware>
+   <plugin>ros2_control_demo_hardware/PositionActuatorHardware</plugin>
+   <param name="example_param_write_for_sec">1.23</param>
+   <param name="example_param_read_for_sec">3</param>
+ </hardware>
+ <joint name="gripper_joint ">
+   <command_interface name="position">
+     <param name="min">0</param>
+     <param name="max">50</param>
+   </command_interface>
+   <state_interface name="position"/>
+   <state_interface name="velocity"/>
+ </joint>
+</ros2_control>

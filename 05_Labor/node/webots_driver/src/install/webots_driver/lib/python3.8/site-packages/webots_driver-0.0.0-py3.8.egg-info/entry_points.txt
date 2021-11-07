@@ -1,0 +1,4 @@
+[console_scripts]
+driver = webots_driver.driver:main
+launch = webots_driver.launch.robot_launch:main
+
