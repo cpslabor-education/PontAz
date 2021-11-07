@@ -13,7 +13,7 @@ class MyWebotsDriver(WebotsNode):
 def main(args=None):
     rclpy.init(args=args)
     my_webots_driver = MyWebotsDriver(args=args)
-    rclpy.spin(my_webots_driver)
+    rclpy.spin(my_webots_driver)#....
     my_webots_driver.destroy()
     rclpy.shutdown()
 
