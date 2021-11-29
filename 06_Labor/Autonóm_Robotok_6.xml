@@ -1,0 +1,934 @@
+<?xml version="1.0"?>
+<root ptr="0x55ceeb3b4d80" id="122" symbol="11SwRootFrame" lower="123">
+ <sfxViewShells>
+  <SwView>
+   <SfxViewShell ptr="0x55cee8c0da30" id="2"/>
+   <SwCursorShell>
+    <SwViewShell/>
+    <m_pCurrentCursor>
+     <SwPaM>
+      <point>
+       <SwPosition nNode="126" nContent="0"/>
+      </point>
+     </SwPaM>
+    </m_pCurrentCursor>
+   </SwCursorShell>
+  </SwView>
+ </sfxViewShells>
+ <infos>
+  <bounds left="284" top="284" width="18669" height="33960" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+  <prtBounds left="0" top="0" width="18669" height="33960"/>
+ </infos>
+ <page ptr="0x55ceeb3dab00" id="123" symbol="11SwPageFrame" next="687" upper="122" lower="125">
+  <page_status ValidFlyLayout="true" ValidFlyContent="true" ValidFlyInCnt="true" ValidLayout="true" ValidContent="true"/>
+  <infos>
+   <bounds left="7047" top="284" width="11906" height="16838" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="1417" top="708" width="9072" height="14713"/>
+  </infos>
+  <header ptr="0x55ceeb56bda0" id="125" symbol="13SwHeaderFrame" next="124" upper="123" lower="126" fmtName="Right header" fmtPtr="0x55ceeb56b770">
+   <infos>
+    <bounds left="8464" top="992" width="9072" height="709" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="9072" height="276"/>
+   </infos>
+   <txt ptr="0x55ceeb501380" id="126" symbol="11SwTextFrame" upper="125" txtNodeIndex="6" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="992" width="9072" height="276" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9072" height="276"/>
+    </infos>
+PontAz    <Special nLength="0" nType="PortionType::Margin" rText="" nWidth="8313"/>
+    <Text nLength="6" nType="PortionType::Text" nHeight="276" nWidth="760" Portion="PontAz"/>
+    <Special nLength="0" nType="PortionType::Margin" rText=""/>
+    <LineBreak nWidth="9073" Line="PontAz"/>
+    <Finish/>
+   </txt>
+  </header>
+  <body ptr="0x55ceeb565340" id="124" symbol="11SwBodyFrame" prev="125" upper="123" lower="127">
+   <infos>
+    <bounds left="8464" top="1701" width="9072" height="14004" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="9072" height="14004"/>
+   </infos>
+   <txt ptr="0x55ceeb502c30" id="127" symbol="11SwTextFrame" next="128" upper="124" txtNodeIndex="21" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="1701" width="9072" height="414" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9072" height="414"/>
+    </infos>
+LABOR JEGYZŐKÖNYV    <Special nLength="0" nType="PortionType::Margin" rText="" nWidth="2441"/>
+    <Text nLength="17" nType="PortionType::Text" nHeight="414" nWidth="4191" Portion="LABOR JEGYZ&#x150;K&#xD6;NYV"/>
+    <Special nLength="0" nType="PortionType::Margin" rText="" nWidth="2441"/>
+    <LineBreak nWidth="9073" Line="LABOR JEGYZ&#x150;K&#xD6;NYV"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceeb53ccf0" id="128" symbol="11SwTextFrame" next="129" prev="127" upper="124" txtNodeIndex="22" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="2115" width="9072" height="401" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="33" width="9072" height="368"/>
+    </infos>
+MOBIL ROBOT ÉPÍTÉSE    <Special nLength="0" nType="PortionType::Margin" rText="" nWidth="2651"/>
+    <Text nLength="19" nType="PortionType::Text" nHeight="368" nWidth="3770" Portion="MOBIL ROBOT &#xC9;P&#xCD;T&#xC9;SE"/>
+    <Special nLength="0" nType="PortionType::Margin" rText="" nWidth="2652"/>
+    <LineBreak nWidth="9073" Line="MOBIL ROBOT &#xC9;P&#xCD;T&#xC9;SE"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceeb53f470" id="129" symbol="11SwTextFrame" next="130" prev="128" upper="124" txtNodeIndex="23" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="2516" width="9072" height="443" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="29" width="9072" height="414"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceeb53ff50" id="130" symbol="11SwTextFrame" next="131" prev="129" upper="124" txtNodeIndex="24" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="2959" width="9072" height="469" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="193" width="9072" height="276"/>
+    </infos>
+Labor helye:****Széchenyi István Egyetem, L4-3 laboratórium,    <Text nLength="12" nType="PortionType::Text" nHeight="276" nWidth="1313" Portion="Labor helye:"/>
+    <Text nLength="1" nType="PortionType::TabLeft" nHeight="276" nWidth="103" Portion="*"/>
+    <Text nLength="1" nType="PortionType::TabLeft" nHeight="276" nWidth="708" Portion="*"/>
+    <Text nLength="1" nType="PortionType::TabLeft" nHeight="276" nWidth="708" Portion="*"/>
+    <Text nLength="1" nType="PortionType::TabLeft" nHeight="276" nWidth="708" Portion="*"/>
+    <Text nLength="44" nType="PortionType::Text" nHeight="276" nWidth="4492" Portion="Sz&#xE9;chenyi Istv&#xE1;n Egyetem, L4-3 laborat&#xF3;rium,"/>
+    <LineBreak nWidth="8032" Line="Labor helye:****Sz&#xE9;chenyi Istv&#xE1;n Egyetem, L4-3 laborat&#xF3;rium,"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceeb53fc70" id="131" symbol="11SwTextFrame" next="132" prev="130" upper="124" txtNodeIndex="25" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="3428" width="9072" height="316" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="40" width="9072" height="276"/>
+    </infos>
+*****9026 Győr, Egyetem tér 1.    <Text nLength="1" nType="PortionType::TabLeft" nHeight="276" nWidth="708" Portion="*"/>
+    <Text nLength="1" nType="PortionType::TabLeft" nHeight="276" nWidth="708" Portion="*"/>
+    <Text nLength="1" nType="PortionType::TabLeft" nHeight="276" nWidth="708" Portion="*"/>
+    <Text nLength="1" nType="PortionType::TabLeft" nHeight="276" nWidth="708" Portion="*"/>
+    <Text nLength="1" nType="PortionType::TabLeft" nHeight="276" nWidth="708" Portion="*"/>
+    <Text nLength="25" nType="PortionType::Text" nHeight="276" nWidth="2560" Portion="9026 Gy&#x151;r, Egyetem t&#xE9;r 1."/>
+    <LineBreak nWidth="6100" Line="*****9026 Gy&#x151;r, Egyetem t&#xE9;r 1."/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceeb51ee20" id="132" symbol="11SwTextFrame" next="133" prev="131" upper="124" txtNodeIndex="26" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="3744" width="9072" height="316" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="40" width="9072" height="276"/>
+    </infos>
+Labor ideje:****2021.09.20.    <Text nLength="12" nType="PortionType::Text" nHeight="276" nWidth="1273" Portion="Labor ideje:"/>
+    <Text nLength="1" nType="PortionType::TabLeft" nHeight="276" nWidth="143" Portion="*"/>
+    <Text nLength="1" nType="PortionType::TabLeft" nHeight="276" nWidth="708" Portion="*"/>
+    <Text nLength="1" nType="PortionType::TabLeft" nHeight="276" nWidth="708" Portion="*"/>
+    <Text nLength="1" nType="PortionType::TabLeft" nHeight="276" nWidth="708" Portion="*"/>
+    <Text nLength="11" nType="PortionType::Text" nHeight="276" nWidth="1140" Portion="2021.09.20."/>
+    <LineBreak nWidth="4680" Line="Labor ideje:****2021.09.20."/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceeb561bd0" id="133" symbol="11SwTextFrame" next="134" prev="132" upper="124" txtNodeIndex="27" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="4060" width="9072" height="316" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="40" width="9072" height="276"/>
+    </infos>
+Labor tárgya:***Robot építése    <Text nLength="13" nType="PortionType::Text" nHeight="276" nWidth="1447" Portion="Labor t&#xE1;rgya:"/>
+    <Text nLength="1" nType="PortionType::TabLeft" nHeight="276" nWidth="677" Portion="*"/>
+    <Text nLength="1" nType="PortionType::TabLeft" nHeight="276" nWidth="708" Portion="*"/>
+    <Text nLength="1" nType="PortionType::TabLeft" nHeight="276" nWidth="708" Portion="*"/>
+    <Text nLength="13" nType="PortionType::Text" nHeight="276" nWidth="1313" Portion="Robot &#xE9;p&#xED;t&#xE9;se"/>
+    <LineBreak nWidth="4853" Line="Labor t&#xE1;rgya:***Robot &#xE9;p&#xED;t&#xE9;se"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceeb53aea0" id="134" symbol="11SwTextFrame" next="135" prev="133" upper="124" txtNodeIndex="28" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="4376" width="9072" height="316" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="40" width="9072" height="276"/>
+    </infos>
+Labort végezte:***Füleki Tamás, Császár Miksa Henrik, Balbach Dominik    <Text nLength="15" nType="PortionType::Text" nHeight="276" nWidth="1606" Portion="Labort v&#xE9;gezte:"/>
+    <Text nLength="1" nType="PortionType::TabLeft" nHeight="276" nWidth="518" Portion="*"/>
+    <Text nLength="1" nType="PortionType::TabLeft" nHeight="276" nWidth="708" Portion="*"/>
+    <Text nLength="1" nType="PortionType::TabLeft" nHeight="276" nWidth="708" Portion="*"/>
+    <Text nLength="51" nType="PortionType::Text" nHeight="276" nWidth="5385" Portion="F&#xFC;leki Tam&#xE1;s, Cs&#xE1;sz&#xE1;r Miksa Henrik, Balbach Dominik"/>
+    <LineBreak nWidth="8925" Line="Labort v&#xE9;gezte:***F&#xFC;leki Tam&#xE1;s, Cs&#xE1;sz&#xE1;r Miksa Henrik, Balbach Dominik"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceeb4f7e20" id="135" symbol="11SwTextFrame" next="136" prev="134" upper="124" txtNodeIndex="29" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="4692" width="9072" height="316" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="40" width="9072" height="276"/>
+    </infos>
+Labor megrendelője:**Hajdu Csaba    <Text nLength="19" nType="PortionType::Text" nHeight="276" nWidth="2166" Portion="Labor megrendel&#x151;je:"/>
+    <Text nLength="1" nType="PortionType::TabLeft" nHeight="276" nWidth="666" Portion="*"/>
+    <Text nLength="1" nType="PortionType::TabLeft" nHeight="276" nWidth="708" Portion="*"/>
+    <Text nLength="11" nType="PortionType::Text" nHeight="276" nWidth="1233" Portion="Hajdu Csaba"/>
+    <LineBreak nWidth="4773" Line="Labor megrendel&#x151;je:**Hajdu Csaba"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceeb4f4950" id="136" symbol="11SwTextFrame" next="137" prev="135" upper="124" txtNodeIndex="30" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="5008" width="9072" height="316" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="40" width="9072" height="276"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceeb5085a0" id="137" symbol="11SwTextFrame" next="138" prev="136" upper="124" txtNodeIndex="31" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="5324" width="9072" height="316" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="40" width="9072" height="276"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceeb50a6e0" id="138" symbol="11SwTextFrame" next="139" prev="137" upper="124" txtNodeIndex="32" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="5640" width="9072" height="316" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="40" width="9072" height="276"/>
+    </infos>
+Használt eszköz(ök)    <Text nLength="19" nType="PortionType::Para" nHeight="276" nWidth="2047" Portion="Haszn&#xE1;lt eszk&#xF6;z(&#xF6;k)"/>
+    <LineBreak nWidth="2047" Line="Haszn&#xE1;lt eszk&#xF6;z(&#xF6;k)"/>
+    <Finish/>
+   </txt>
+   <tab ptr="0x55ceeb5a96c0" id="139" symbol="10SwTabFrame" next="182" prev="138" upper="124" lower="140">
+    <infos>
+     <bounds left="8464" top="5956" width="9072" height="2282" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="40" width="5460" height="2232"/>
+    </infos>
+    <row ptr="0x55ceeb3b43e0" id="140" symbol="10SwRowFrame" next="147" upper="139" lower="141">
+     <infos>
+      <bounds left="8464" top="5996" width="5460" height="326" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+      <prtBounds left="0" top="0" width="5460" height="326"/>
+     </infos>
+     <cell ptr="0x55ceeb575370" id="141" symbol="11SwCellFrame" next="143" upper="140" lower="142" rowspan="1">
+      <infos>
+       <bounds left="8464" top="5996" width="2160" height="326" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="10" width="1944" height="316"/>
+      </infos>
+      <txt ptr="0x55ceeb58ab90" id="142" symbol="11SwTextFrame" upper="141" txtNodeIndex="35" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8572" top="6006" width="1944" height="316" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="1944" height="276"/>
+       </infos>
+Megnevezés       <Special nLength="0" nType="PortionType::Margin" rText="" nWidth="373"/>
+       <Text nLength="10" nType="PortionType::Text" nHeight="276" nWidth="1199" Portion="Megnevez&#xE9;s"/>
+       <Special nLength="0" nType="PortionType::Margin" rText="" nWidth="373"/>
+       <LineBreak nWidth="1945" Line="Megnevez&#xE9;s"/>
+       <Finish/>
+      </txt>
+     </cell>
+     <cell ptr="0x55ceeb53def0" id="143" symbol="11SwCellFrame" next="145" prev="141" upper="140" lower="144" rowspan="1">
+      <infos>
+       <bounds left="10624" top="5996" width="1480" height="326" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="10" width="1264" height="316"/>
+      </infos>
+      <txt ptr="0x55ceeb5202a0" id="144" symbol="11SwTextFrame" upper="143" txtNodeIndex="38" WritingMode="Horizontal">
+       <infos>
+        <bounds left="10732" top="6006" width="1264" height="316" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="1264" height="276"/>
+       </infos>
+Gyártó       <Special nLength="0" nType="PortionType::Margin" rText="" nWidth="299"/>
+       <Text nLength="6" nType="PortionType::Text" nHeight="276" nWidth="667" Portion="Gy&#xE1;rt&#xF3;"/>
+       <Special nLength="0" nType="PortionType::Margin" rText="" nWidth="299"/>
+       <LineBreak nWidth="1265" Line="Gy&#xE1;rt&#xF3;"/>
+       <Finish/>
+      </txt>
+     </cell>
+     <cell ptr="0x55ceeb55c420" id="145" symbol="11SwCellFrame" prev="143" upper="140" lower="146" rowspan="1">
+      <infos>
+       <bounds left="12104" top="5996" width="1820" height="326" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="10" width="1604" height="316"/>
+      </infos>
+      <txt ptr="0x55ceeb567c70" id="146" symbol="11SwTextFrame" upper="145" txtNodeIndex="41" WritingMode="Horizontal">
+       <infos>
+        <bounds left="12212" top="6006" width="1604" height="316" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="1604" height="276"/>
+       </infos>
+Típus       <Special nLength="0" nType="PortionType::Margin" rText="" nWidth="529"/>
+       <Text nLength="5" nType="PortionType::Text" nHeight="276" nWidth="547" Portion="T&#xED;pus"/>
+       <Special nLength="0" nType="PortionType::Margin" rText="" nWidth="529"/>
+       <LineBreak nWidth="1605" Line="T&#xED;pus"/>
+       <Finish/>
+      </txt>
+     </cell>
+    </row>
+    <row ptr="0x55ceeb50e8c0" id="147" symbol="10SwRowFrame" next="154" prev="140" upper="139" lower="148">
+     <infos>
+      <bounds left="8464" top="6322" width="5460" height="326" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+      <prtBounds left="0" top="0" width="5460" height="326"/>
+     </infos>
+     <cell ptr="0x55ceeb53cf10" id="148" symbol="11SwCellFrame" next="150" upper="147" lower="149" rowspan="1">
+      <infos>
+       <bounds left="8464" top="6322" width="2160" height="326" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="10" width="1944" height="316"/>
+      </infos>
+      <txt ptr="0x55ceeb56bb90" id="149" symbol="11SwTextFrame" upper="148" txtNodeIndex="44" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8572" top="6332" width="1944" height="316" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="1944" height="276"/>
+       </infos>
+DC motor       <Text nLength="8" nType="PortionType::Para" nHeight="276" nWidth="967" Portion="DC motor"/>
+       <LineBreak nWidth="967" Line="DC motor"/>
+       <Finish/>
+      </txt>
+     </cell>
+     <cell ptr="0x55ceeb5a88f0" id="150" symbol="11SwCellFrame" next="152" prev="148" upper="147" lower="151" rowspan="1">
+      <infos>
+       <bounds left="10624" top="6322" width="1480" height="326" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="10" width="1264" height="316"/>
+      </infos>
+      <txt ptr="0x55ceeb53d730" id="151" symbol="11SwTextFrame" upper="150" txtNodeIndex="47" WritingMode="Horizontal">
+       <infos>
+        <bounds left="10732" top="6332" width="1264" height="316" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="1264" height="276"/>
+       </infos>
+LEGO       <Text nLength="4" nType="PortionType::Para" nHeight="276" nWidth="640" Portion="LEGO"/>
+       <LineBreak nWidth="640" Line="LEGO"/>
+       <Finish/>
+      </txt>
+     </cell>
+     <cell ptr="0x55ceeb5117d0" id="152" symbol="11SwCellFrame" prev="150" upper="147" lower="153" rowspan="1">
+      <infos>
+       <bounds left="12104" top="6322" width="1820" height="326" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="10" width="1604" height="316"/>
+      </infos>
+      <txt ptr="0x55ceeb569d10" id="153" symbol="11SwTextFrame" upper="152" txtNodeIndex="50" WritingMode="Horizontal">
+       <infos>
+        <bounds left="12212" top="6332" width="1604" height="316" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="1604" height="276"/>
+       </infos>
+45502       <Text nLength="5" nType="PortionType::Para" nHeight="276" nWidth="600" Portion="45502"/>
+       <LineBreak nWidth="600" Line="45502"/>
+       <Finish/>
+      </txt>
+     </cell>
+    </row>
+    <row ptr="0x55ceeb4d36e0" id="154" symbol="10SwRowFrame" next="161" prev="147" upper="139" lower="155">
+     <infos>
+      <bounds left="8464" top="6648" width="5460" height="326" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+      <prtBounds left="0" top="0" width="5460" height="326"/>
+     </infos>
+     <cell ptr="0x55ceeb563e10" id="155" symbol="11SwCellFrame" next="157" upper="154" lower="156" rowspan="1">
+      <infos>
+       <bounds left="8464" top="6648" width="2160" height="326" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="10" width="1944" height="316"/>
+      </infos>
+      <txt ptr="0x55ceeb5698e0" id="156" symbol="11SwTextFrame" upper="155" txtNodeIndex="53" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8572" top="6658" width="1944" height="316" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="1944" height="276"/>
+       </infos>
+DC motor       <Text nLength="8" nType="PortionType::Para" nHeight="276" nWidth="967" Portion="DC motor"/>
+       <LineBreak nWidth="967" Line="DC motor"/>
+       <Finish/>
+      </txt>
+     </cell>
+     <cell ptr="0x55ceeb562910" id="157" symbol="11SwCellFrame" next="159" prev="155" upper="154" lower="158" rowspan="1">
+      <infos>
+       <bounds left="10624" top="6648" width="1480" height="326" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="10" width="1264" height="316"/>
+      </infos>
+      <txt ptr="0x55ceeb53ea90" id="158" symbol="11SwTextFrame" upper="157" txtNodeIndex="56" WritingMode="Horizontal">
+       <infos>
+        <bounds left="10732" top="6658" width="1264" height="316" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="1264" height="276"/>
+       </infos>
+LEGO       <Text nLength="4" nType="PortionType::Para" nHeight="276" nWidth="640" Portion="LEGO"/>
+       <LineBreak nWidth="640" Line="LEGO"/>
+       <Finish/>
+      </txt>
+     </cell>
+     <cell ptr="0x55ceeb5623d0" id="159" symbol="11SwCellFrame" prev="157" upper="154" lower="160" rowspan="1">
+      <infos>
+       <bounds left="12104" top="6648" width="1820" height="326" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="10" width="1604" height="316"/>
+      </infos>
+      <txt ptr="0x55ceeb569f10" id="160" symbol="11SwTextFrame" upper="159" txtNodeIndex="59" WritingMode="Horizontal">
+       <infos>
+        <bounds left="12212" top="6658" width="1604" height="316" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="1604" height="276"/>
+       </infos>
+45503       <Text nLength="5" nType="PortionType::Para" nHeight="276" nWidth="600" Portion="45503"/>
+       <LineBreak nWidth="600" Line="45503"/>
+       <Finish/>
+      </txt>
+     </cell>
+    </row>
+    <row ptr="0x55ceeb51ef50" id="161" symbol="10SwRowFrame" next="168" prev="154" upper="139" lower="162">
+     <infos>
+      <bounds left="8464" top="6974" width="5460" height="602" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+      <prtBounds left="0" top="0" width="5460" height="602"/>
+     </infos>
+     <cell ptr="0x55ceeb5600f0" id="162" symbol="11SwCellFrame" next="164" upper="161" lower="163" rowspan="1">
+      <infos>
+       <bounds left="8464" top="6974" width="2160" height="602" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="10" width="1944" height="592"/>
+      </infos>
+      <txt ptr="0x55ceeb570650" id="163" symbol="11SwTextFrame" upper="162" txtNodeIndex="62" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8572" top="6984" width="1944" height="592" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="1944" height="552"/>
+       </infos>
+Ultrahangos szenzor       <Text nLength="12" nType="PortionType::Para" nHeight="276" nWidth="1233" Portion="Ultrahangos "/>
+       <LineBreak nWidth="1233" Line="Ultrahangos "/>
+       <Text nLength="7" nType="PortionType::Lay" nHeight="276" nWidth="733" Portion="szenzor"/>
+       <LineBreak nWidth="733" Line="szenzor"/>
+       <Finish/>
+      </txt>
+     </cell>
+     <cell ptr="0x55ceeb55f8e0" id="164" symbol="11SwCellFrame" next="166" prev="162" upper="161" lower="165" rowspan="1">
+      <infos>
+       <bounds left="10624" top="6974" width="1480" height="602" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="10" width="1264" height="592"/>
+      </infos>
+      <txt ptr="0x55ceeb571910" id="165" symbol="11SwTextFrame" upper="164" txtNodeIndex="65" WritingMode="Horizontal">
+       <infos>
+        <bounds left="10732" top="6984" width="1264" height="316" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="1264" height="276"/>
+       </infos>
+LEGO       <Text nLength="4" nType="PortionType::Para" nHeight="276" nWidth="640" Portion="LEGO"/>
+       <LineBreak nWidth="640" Line="LEGO"/>
+       <Finish/>
+      </txt>
+     </cell>
+     <cell ptr="0x55ceeb4f3e00" id="166" symbol="11SwCellFrame" prev="164" upper="161" lower="167" rowspan="1">
+      <infos>
+       <bounds left="12104" top="6974" width="1820" height="602" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="10" width="1604" height="592"/>
+      </infos>
+      <txt ptr="0x55ceeb572150" id="167" symbol="11SwTextFrame" upper="166" txtNodeIndex="68" WritingMode="Horizontal">
+       <infos>
+        <bounds left="12212" top="6984" width="1604" height="316" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="1604" height="276"/>
+       </infos>
+45504       <Text nLength="5" nType="PortionType::Para" nHeight="276" nWidth="600" Portion="45504"/>
+       <LineBreak nWidth="600" Line="45504"/>
+       <Finish/>
+      </txt>
+     </cell>
+    </row>
+    <row ptr="0x55ceeb539900" id="168" symbol="10SwRowFrame" next="175" prev="161" upper="139" lower="169">
+     <infos>
+      <bounds left="8464" top="7576" width="5460" height="326" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+      <prtBounds left="0" top="0" width="5460" height="326"/>
+     </infos>
+     <cell ptr="0x55ceeb51f0f0" id="169" symbol="11SwCellFrame" next="171" upper="168" lower="170" rowspan="1">
+      <infos>
+       <bounds left="8464" top="7576" width="2160" height="326" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="10" width="1944" height="316"/>
+      </infos>
+      <txt ptr="0x55ceeb53e6b0" id="170" symbol="11SwTextFrame" upper="169" txtNodeIndex="71" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8572" top="7586" width="1944" height="316" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="1944" height="276"/>
+       </infos>
+Nyomásérzékelő       <Text nLength="14" nType="PortionType::Para" nHeight="276" nWidth="1613" Portion="Nyom&#xE1;s&#xE9;rz&#xE9;kel&#x151;"/>
+       <LineBreak nWidth="1613" Line="Nyom&#xE1;s&#xE9;rz&#xE9;kel&#x151;"/>
+       <Finish/>
+      </txt>
+     </cell>
+     <cell ptr="0x55ceeb4f88b0" id="171" symbol="11SwCellFrame" next="173" prev="169" upper="168" lower="172" rowspan="1">
+      <infos>
+       <bounds left="10624" top="7576" width="1480" height="326" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="10" width="1264" height="316"/>
+      </infos>
+      <txt ptr="0x55ceeb56f3a0" id="172" symbol="11SwTextFrame" upper="171" txtNodeIndex="74" WritingMode="Horizontal">
+       <infos>
+        <bounds left="10732" top="7586" width="1264" height="316" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="1264" height="276"/>
+       </infos>
+LEGO       <Text nLength="4" nType="PortionType::Para" nHeight="276" nWidth="640" Portion="LEGO"/>
+       <LineBreak nWidth="640" Line="LEGO"/>
+       <Finish/>
+      </txt>
+     </cell>
+     <cell ptr="0x55ceeb588db0" id="173" symbol="11SwCellFrame" prev="171" upper="168" lower="174" rowspan="1">
+      <infos>
+       <bounds left="12104" top="7576" width="1820" height="326" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="10" width="1604" height="316"/>
+      </infos>
+      <txt ptr="0x55ceeb5712c0" id="174" symbol="11SwTextFrame" upper="173" txtNodeIndex="77" WritingMode="Horizontal">
+       <infos>
+        <bounds left="12212" top="7586" width="1604" height="316" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="1604" height="276"/>
+       </infos>
+45507       <Text nLength="5" nType="PortionType::Para" nHeight="276" nWidth="600" Portion="45507"/>
+       <LineBreak nWidth="600" Line="45507"/>
+       <Finish/>
+      </txt>
+     </cell>
+    </row>
+    <row ptr="0x55ceeb5bce70" id="175" symbol="10SwRowFrame" prev="168" upper="139" lower="176">
+     <infos>
+      <bounds left="8464" top="7902" width="5460" height="326" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+      <prtBounds left="0" top="0" width="5460" height="326"/>
+     </infos>
+     <cell ptr="0x55ceeb55cc00" id="176" symbol="11SwCellFrame" next="178" upper="175" lower="177" rowspan="1">
+      <infos>
+       <bounds left="8464" top="7902" width="2160" height="326" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="10" width="1944" height="316"/>
+      </infos>
+      <txt ptr="0x55ceeb566d10" id="177" symbol="11SwTextFrame" upper="176" txtNodeIndex="80" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8572" top="7912" width="1944" height="316" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="1944" height="276"/>
+       </infos>
+RGB szenzor       <Text nLength="11" nType="PortionType::Para" nHeight="276" nWidth="1286" Portion="RGB szenzor"/>
+       <LineBreak nWidth="1286" Line="RGB szenzor"/>
+       <Finish/>
+      </txt>
+     </cell>
+     <cell ptr="0x55ceeb4f44a0" id="178" symbol="11SwCellFrame" next="180" prev="176" upper="175" lower="179" rowspan="1">
+      <infos>
+       <bounds left="10624" top="7902" width="1480" height="326" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="10" width="1264" height="316"/>
+      </infos>
+      <txt ptr="0x55ceeb568280" id="179" symbol="11SwTextFrame" upper="178" txtNodeIndex="83" WritingMode="Horizontal">
+       <infos>
+        <bounds left="10732" top="7912" width="1264" height="316" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="1264" height="276"/>
+       </infos>
+LEGO       <Text nLength="4" nType="PortionType::Para" nHeight="276" nWidth="640" Portion="LEGO"/>
+       <LineBreak nWidth="640" Line="LEGO"/>
+       <Finish/>
+      </txt>
+     </cell>
+     <cell ptr="0x55ceeb56af20" id="180" symbol="11SwCellFrame" prev="178" upper="175" lower="181" rowspan="1">
+      <infos>
+       <bounds left="12104" top="7902" width="1820" height="326" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="10" width="1604" height="316"/>
+      </infos>
+      <txt ptr="0x55ceeb56d690" id="181" symbol="11SwTextFrame" upper="180" txtNodeIndex="86" WritingMode="Horizontal">
+       <infos>
+        <bounds left="12212" top="7912" width="1604" height="316" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="1604" height="276"/>
+       </infos>
+45506       <Text nLength="5" nType="PortionType::Para" nHeight="276" nWidth="600" Portion="45506"/>
+       <LineBreak nWidth="600" Line="45506"/>
+       <Finish/>
+      </txt>
+     </cell>
+    </row>
+   </tab>
+   <txt ptr="0x55ceeb56d060" id="182" symbol="11SwTextFrame" next="183" prev="139" upper="124" txtNodeIndex="89" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="8238" width="9072" height="256" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9072" height="256"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceeb58a7b0" id="183" symbol="11SwTextFrame" next="672" prev="182" upper="124" txtNodeIndex="90" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="8494" width="9072" height="502" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="322"/>
+    </infos>
+Feladat meghatározása:    <Text nLength="22" nType="PortionType::Para" nHeight="322" nWidth="2869" Portion="Feladat meghat&#xE1;roz&#xE1;sa:"/>
+    <LineBreak nWidth="2869" Line="Feladat meghat&#xE1;roz&#xE1;sa:"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceee17f1e0" id="672" symbol="11SwTextFrame" next="673" prev="183" upper="124" txtNodeIndex="91" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="8996" width="9072" height="441" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="185" width="9072" height="256"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceece240c0" id="673" symbol="11SwTextFrame" next="674" prev="672" upper="124" txtNodeIndex="92" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="9437" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <anchored>
+     <fly ptr="0x55ceee397a40" id="679" symbol="19SwFlyAtContentFrame" lower="680">
+      <infos>
+       <bounds left="8904" top="9437" width="3783" height="5047" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="0" top="0" width="3783" height="5047"/>
+      </infos>
+      <notxt ptr="0x55ceec77c610" id="680" symbol="13SwNoTextFrame" upper="679">
+       <infos>
+        <bounds left="8904" top="9437" width="3783" height="5047" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="3783" height="5047"/>
+       </infos>
+      </notxt>
+     </fly>
+     <fly ptr="0x55ceec892bf0" id="695" symbol="19SwFlyAtContentFrame" lower="696">
+      <infos>
+       <bounds left="13609" top="9514" width="3783" height="5047" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="0" top="0" width="3783" height="5047"/>
+      </infos>
+      <notxt ptr="0x55ceede526f0" id="696" symbol="13SwNoTextFrame" upper="695">
+       <infos>
+        <bounds left="13609" top="9514" width="3783" height="5047" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="3783" height="5047"/>
+       </infos>
+      </notxt>
+     </fly>
+    </anchored>
+    <Special nLength="0" nType="PortionType::Fly" rText="" nHeight="256" nWidth="4223"/>
+    <LineBreak nWidth="4223"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceec70fb80" id="674" symbol="11SwTextFrame" next="681" prev="673" upper="124" txtNodeIndex="93" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="9873" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <Special nLength="0" nType="PortionType::Fly" rText="" nHeight="256" nWidth="4223"/>
+    <LineBreak nWidth="4223"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceec138c60" id="681" symbol="11SwTextFrame" next="682" prev="674" upper="124" txtNodeIndex="94" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="10309" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <Special nLength="0" nType="PortionType::Fly" rText="" nHeight="256" nWidth="4223"/>
+    <LineBreak nWidth="4223"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceed9c6400" id="682" symbol="11SwTextFrame" next="683" prev="681" upper="124" txtNodeIndex="95" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="10745" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <Special nLength="0" nType="PortionType::Fly" rText="" nHeight="256" nWidth="4223"/>
+    <LineBreak nWidth="4223"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceec8f8490" id="683" symbol="11SwTextFrame" next="684" prev="682" upper="124" txtNodeIndex="96" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="11181" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <Special nLength="0" nType="PortionType::Fly" rText="" nHeight="256" nWidth="4223"/>
+    <LineBreak nWidth="4223"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceec991070" id="684" symbol="11SwTextFrame" next="685" prev="683" upper="124" txtNodeIndex="97" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="11617" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <Special nLength="0" nType="PortionType::Fly" rText="" nHeight="256" nWidth="4223"/>
+    <LineBreak nWidth="4223"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceece100e0" id="685" symbol="11SwTextFrame" next="691" prev="684" upper="124" txtNodeIndex="98" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="12053" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <Special nLength="0" nType="PortionType::Fly" rText="" nHeight="256" nWidth="4223"/>
+    <LineBreak nWidth="4223"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceedfd5ed0" id="691" symbol="11SwTextFrame" next="692" prev="685" upper="124" txtNodeIndex="99" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="12489" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <Special nLength="0" nType="PortionType::Fly" rText="" nHeight="256" nWidth="4223"/>
+    <LineBreak nWidth="4223"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceeca87a30" id="692" symbol="11SwTextFrame" next="693" prev="691" upper="124" txtNodeIndex="100" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="12925" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <Special nLength="0" nType="PortionType::Fly" rText="" nHeight="256" nWidth="4223"/>
+    <LineBreak nWidth="4223"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceeb31b040" id="693" symbol="11SwTextFrame" next="694" prev="692" upper="124" txtNodeIndex="101" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="13361" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <Special nLength="0" nType="PortionType::Fly" rText="" nHeight="256" nWidth="4223"/>
+    <LineBreak nWidth="4223"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceedc2b2d0" id="694" symbol="11SwTextFrame" next="675" prev="693" upper="124" txtNodeIndex="102" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="13797" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <Special nLength="0" nType="PortionType::Fly" rText="" nHeight="256" nWidth="4223"/>
+    <LineBreak nWidth="4223"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceeb489100" id="675" symbol="11SwTextFrame" next="676" prev="694" upper="124" txtNodeIndex="103" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="14233" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <Special nLength="0" nType="PortionType::Fly" rText="" nHeight="256" nWidth="4223"/>
+    <LineBreak nWidth="4223"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceee40dd20" id="676" symbol="11SwTextFrame" prev="675" upper="124" txtNodeIndex="104" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="14669" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <Finish/>
+   </txt>
+  </body>
+ </page>
+ <page ptr="0x55ceec7f2370" id="687" symbol="11SwPageFrame" prev="123" upper="122" lower="689">
+  <page_status ValidFlyLayout="true" ValidFlyContent="true" ValidFlyInCnt="true" ValidLayout="true" ValidContent="true"/>
+  <infos>
+   <bounds left="7047" top="17406" width="11906" height="16838" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="1417" top="708" width="9072" height="14713"/>
+  </infos>
+  <header ptr="0x55ceec8a2620" id="689" symbol="13SwHeaderFrame" next="688" upper="687" lower="690" fmtName="Right header" fmtPtr="0x55ceeb56b770">
+   <infos>
+    <bounds left="8464" top="18114" width="9072" height="709" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="9072" height="276"/>
+   </infos>
+   <txt ptr="0x55ceece0cf70" id="690" symbol="11SwTextFrame" upper="689" txtNodeIndex="6" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="18114" width="9072" height="276" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9072" height="276"/>
+    </infos>
+PontAz    <Special nLength="0" nType="PortionType::Margin" rText="" nWidth="8313"/>
+    <Text nLength="6" nType="PortionType::Text" nHeight="276" nWidth="760" Portion="PontAz"/>
+    <Special nLength="0" nType="PortionType::Margin" rText=""/>
+    <LineBreak nWidth="9073" Line="PontAz"/>
+    <Finish/>
+   </txt>
+  </header>
+  <body ptr="0x55ceed816ac0" id="688" symbol="11SwBodyFrame" prev="689" upper="687" lower="184">
+   <infos>
+    <bounds left="8464" top="18823" width="9072" height="14004" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="9072" height="14004"/>
+   </infos>
+   <txt ptr="0x55ceeb56e310" id="184" symbol="11SwTextFrame" next="698" upper="688" txtNodeIndex="105" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="18823" width="9072" height="2188" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9072" height="2188"/>
+    </infos>
+A roboton két fő actuator (45502) található melyek a mozgásában, elfordulásában segítik azt. A két motorra egy-egy kereket rögzítettünk. Ezek a kerekek külön-külön vezérelhetők, aminek a segítségével kormányozható a robot. Hátsó keréknek egy két kisebb kerékből álló, szabadon forgó szerkezetet építettünk, ami így könnyen követi a robot mozgását. A roboton egy további actuator is helyet kapott (45503) melynek segítségével az Ultrasonic Szenzort (45504) lehet 360° fokban forgatni. Továbbá egy nyomás érzékelő (45507) is helyet kapott rajta.    <Text nLength="27" nType="PortionType::Text" nHeight="256" nWidth="2936" Portion="A roboton k&#xE9;t f&#x151; actuator ("/>
+    <Text nLength="5" nType="PortionType::Text" nHeight="256" nWidth="765" Portion="45502"/>
+    <Text nLength="33" nType="PortionType::Text" nHeight="256" nWidth="3821" Portion=") tal&#xE1;lhat&#xF3; melyek a mozg&#xE1;s&#xE1;ban, "/>
+    <LineBreak nWidth="7522" Line="A roboton k&#xE9;t f&#x151; actuator (45502) tal&#xE1;lhat&#xF3; melyek a mozg&#xE1;s&#xE1;ban, "/>
+    <Text nLength="79" nType="PortionType::Lay" nHeight="256" nWidth="8717" Portion="elfordul&#xE1;s&#xE1;ban seg&#xED;tik azt. A k&#xE9;t motorra egy-egy kereket r&#xF6;gz&#xED;tett&#xFC;nk. Ezek a "/>
+    <LineBreak nWidth="8717" Line="elfordul&#xE1;s&#xE1;ban seg&#xED;tik azt. A k&#xE9;t motorra egy-egy kereket r&#xF6;gz&#xED;tett&#xFC;nk. Ezek a "/>
+    <Text nLength="78" nType="PortionType::Text" nHeight="256" nWidth="9062" Portion="kerekek k&#xFC;l&#xF6;n-k&#xFC;l&#xF6;n vez&#xE9;relhet&#x151;k, aminek a seg&#xED;ts&#xE9;g&#xE9;vel korm&#xE1;nyozhat&#xF3; a robot."/>
+    <Text nLength="1" nType="PortionType::Hole" Portion=" "/>
+    <LineBreak nWidth="9062" Line="kerekek k&#xFC;l&#xF6;n-k&#xFC;l&#xF6;n vez&#xE9;relhet&#x151;k, aminek a seg&#xED;ts&#xE9;g&#xE9;vel korm&#xE1;nyozhat&#xF3; a robot. "/>
+    <Text nLength="72" nType="PortionType::Lay" nHeight="256" nWidth="8147" Portion="H&#xE1;ts&#xF3; ker&#xE9;knek egy k&#xE9;t kisebb ker&#xE9;kb&#x151;l &#xE1;ll&#xF3;, szabadon forg&#xF3; szerkezetet "/>
+    <LineBreak nWidth="8147" Line="H&#xE1;ts&#xF3; ker&#xE9;knek egy k&#xE9;t kisebb ker&#xE9;kb&#x151;l &#xE1;ll&#xF3;, szabadon forg&#xF3; szerkezetet "/>
+    <Text nLength="75" nType="PortionType::Lay" nHeight="256" nWidth="8517" Portion="&#xE9;p&#xED;tett&#xFC;nk, ami &#xED;gy k&#xF6;nnyen k&#xF6;veti a robot mozg&#xE1;s&#xE1;t. A roboton egy tov&#xE1;bbi "/>
+    <LineBreak nWidth="8517" Line="&#xE9;p&#xED;tett&#xFC;nk, ami &#xED;gy k&#xF6;nnyen k&#xF6;veti a robot mozg&#xE1;s&#xE1;t. A roboton egy tov&#xE1;bbi "/>
+    <Text nLength="27" nType="PortionType::Text" nHeight="256" nWidth="2867" Portion="actuator is helyet kapott ("/>
+    <Text nLength="5" nType="PortionType::Text" nHeight="256" nWidth="765" Portion="45503"/>
+    <Text nLength="46" nType="PortionType::Text" nHeight="256" nWidth="5150" Portion=") melynek seg&#xED;ts&#xE9;g&#xE9;vel az Ultrasonic Szenzort "/>
+    <LineBreak nWidth="8782" Line="actuator is helyet kapott (45503) melynek seg&#xED;ts&#xE9;g&#xE9;vel az Ultrasonic Szenzort "/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="256" nWidth="86" Portion="("/>
+    <Text nLength="5" nType="PortionType::Text" nHeight="256" nWidth="765" Portion="45504"/>
+    <Text nLength="59" nType="PortionType::Text" nHeight="256" nWidth="6734" Portion=") lehet 360&#xB0; fokban forgatni. Tov&#xE1;bb&#xE1; egy nyom&#xE1;s &#xE9;rz&#xE9;kel&#x151; ("/>
+    <Text nLength="5" nType="PortionType::Text" nHeight="256" nWidth="765" Portion="45507"/>
+    <Text nLength="5" nType="PortionType::Text" nHeight="256" nWidth="402" Portion=") is "/>
+    <LineBreak nWidth="8752" Line="(45504) lehet 360&#xB0; fokban forgatni. Tov&#xE1;bb&#xE1; egy nyom&#xE1;s &#xE9;rz&#xE9;kel&#x151; (45507) is "/>
+    <Text nLength="20" nType="PortionType::Lay" nHeight="256" nWidth="2115" Portion="helyet kapott rajta."/>
+    <LineBreak nWidth="2115" Line="helyet kapott rajta."/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceed59c990" id="698" symbol="11SwTextFrame" next="706" prev="184" upper="688" txtNodeIndex="106" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="21011" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+A vezérlésről:    <Text nLength="14" nType="PortionType::Para" nHeight="256" nWidth="1704" Portion="A vez&#xE9;rl&#xE9;sr&#x151;l:"/>
+    <LineBreak nWidth="1704" Line="A vez&#xE9;rl&#xE9;sr&#x151;l:"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceec7f2470" id="706" symbol="11SwTextFrame" next="707" prev="698" upper="688" txtNodeIndex="107" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="21447" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+A program főbb változói:    <Text nLength="24" nType="PortionType::Para" nHeight="256" nWidth="2729" Portion="A program f&#x151;bb v&#xE1;ltoz&#xF3;i:"/>
+    <LineBreak nWidth="2729" Line="A program f&#x151;bb v&#xE1;ltoz&#xF3;i:"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceecdc5270" id="707" symbol="11SwTextFrame" next="705" prev="706" upper="688" txtNodeIndex="108" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="21883" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <anchored>
+     <fly ptr="0x55ceeb3bde80" id="708" symbol="19SwFlyAtContentFrame" lower="709">
+      <infos>
+       <bounds left="10345" top="22297" width="5130" height="1035" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="0" top="0" width="5130" height="1035"/>
+      </infos>
+      <notxt ptr="0x55cee9bc34c0" id="709" symbol="13SwNoTextFrame" upper="708">
+       <infos>
+        <bounds left="10345" top="22297" width="5130" height="1035" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="5130" height="1035"/>
+       </infos>
+      </notxt>
+     </fly>
+    </anchored>
+    <Special nLength="0" nType="PortionType::Fly" rText="" nHeight="256" nWidth="7011"/>
+    <LineBreak nWidth="7011"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceecca33f0" id="705" symbol="11SwTextFrame" next="703" prev="707" upper="688" txtNodeIndex="109" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="22319" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <Special nLength="0" nType="PortionType::Fly" rText="" nHeight="256" nWidth="7011"/>
+    <LineBreak nWidth="7011"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceee3f8be0" id="703" symbol="11SwTextFrame" next="704" prev="705" upper="688" txtNodeIndex="110" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="22755" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <Special nLength="0" nType="PortionType::Fly" rText="" nHeight="256" nWidth="7011"/>
+    <LineBreak nWidth="7011"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55cee9d8dd10" id="704" symbol="11SwTextFrame" next="710" prev="703" upper="688" txtNodeIndex="111" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="23191" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceede72c10" id="710" symbol="11SwTextFrame" next="700" prev="704" upper="688" txtNodeIndex="112" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="23627" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceee3ce020" id="700" symbol="11SwTextFrame" next="714" prev="710" upper="688" txtNodeIndex="113" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="24063" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+A program főbb objektumai:    <Text nLength="26" nType="PortionType::Para" nHeight="256" nWidth="3105" Portion="A program f&#x151;bb objektumai:"/>
+    <LineBreak nWidth="3105" Line="A program f&#x151;bb objektumai:"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceeb41be40" id="714" symbol="11SwTextFrame" next="713" prev="700" upper="688" txtNodeIndex="114" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="24499" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceecab1800" id="713" symbol="11SwTextFrame" next="716" prev="714" upper="688" txtNodeIndex="115" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="24935" width="9072" height="712" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="532"/>
+    </infos>
+Van egy calculate_dir nevű függvény ami a fej pozíciója alapján meghatározza a robot további irányát.     <Text nLength="79" nType="PortionType::Para" nHeight="256" nWidth="8942" Portion="Van egy calculate_dir nev&#x171; f&#xFC;ggv&#xE9;ny ami a fej poz&#xED;ci&#xF3;ja alapj&#xE1;n meghat&#xE1;rozza a "/>
+    <LineBreak nWidth="8942" Line="Van egy calculate_dir nev&#x171; f&#xFC;ggv&#xE9;ny ami a fej poz&#xED;ci&#xF3;ja alapj&#xE1;n meghat&#xE1;rozza a "/>
+    <Text nLength="23" nType="PortionType::Lay" nHeight="256" nWidth="2470" Portion="robot tov&#xE1;bbi ir&#xE1;ny&#xE1;t. "/>
+    <LineBreak nWidth="2470" Line="robot tov&#xE1;bbi ir&#xE1;ny&#xE1;t. "/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceeb3e6960" id="716" symbol="11SwTextFrame" next="715" prev="713" upper="688" txtNodeIndex="116" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="25647" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceeb42f240" id="715" symbol="11SwTextFrame" next="718" prev="716" upper="688" txtNodeIndex="117" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="26083" width="9072" height="712" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="532"/>
+    </infos>
+Van egy driving nevű függvény ami egy párhuzamos threadben fut, és a robot mozgásáért felelős.    <Text nLength="75" nType="PortionType::Para" nHeight="256" nWidth="8736" Portion="Van egy driving nev&#x171; f&#xFC;ggv&#xE9;ny ami egy p&#xE1;rhuzamos threadben fut, &#xE9;s a robot "/>
+    <LineBreak nWidth="8736" Line="Van egy driving nev&#x171; f&#xFC;ggv&#xE9;ny ami egy p&#xE1;rhuzamos threadben fut, &#xE9;s a robot "/>
+    <Text nLength="19" nType="PortionType::Lay" nHeight="256" nWidth="2161" Portion="mozg&#xE1;s&#xE1;&#xE9;rt felel&#x151;s."/>
+    <LineBreak nWidth="2161" Line="mozg&#xE1;s&#xE1;&#xE9;rt felel&#x151;s."/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceec8748f0" id="718" symbol="11SwTextFrame" next="717" prev="715" upper="688" txtNodeIndex="118" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="26795" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceee1962a0" id="717" symbol="11SwTextFrame" next="720" prev="718" upper="688" txtNodeIndex="119" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="27231" width="9072" height="988" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="808"/>
+    </infos>
+Van egy main nevű függvény ami a fő gerince a programnak, a változók inicializálását követően elindul a program. A main feladata: a fej pozíciójának bekérése után, a megfelelő helyzetbe irányítja a robotot.    <Text nLength="69" nType="PortionType::Para" nHeight="256" nWidth="8056" Portion="Van egy main nev&#x171; f&#xFC;ggv&#xE9;ny ami a f&#x151; gerince a programnak, a v&#xE1;ltoz&#xF3;k "/>
+    <LineBreak nWidth="8056" Line="Van egy main nev&#x171; f&#xFC;ggv&#xE9;ny ami a f&#x151; gerince a programnak, a v&#xE1;ltoz&#xF3;k "/>
+    <Text nLength="80" nType="PortionType::Lay" nHeight="256" nWidth="8617" Portion="inicializ&#xE1;l&#xE1;s&#xE1;t k&#xF6;vet&#x151;en elindul a program. A main feladata: a fej poz&#xED;ci&#xF3;j&#xE1;nak "/>
+    <LineBreak nWidth="8617" Line="inicializ&#xE1;l&#xE1;s&#xE1;t k&#xF6;vet&#x151;en elindul a program. A main feladata: a fej poz&#xED;ci&#xF3;j&#xE1;nak "/>
+    <Text nLength="57" nType="PortionType::Lay" nHeight="256" nWidth="6293" Portion="bek&#xE9;r&#xE9;se ut&#xE1;n, a megfelel&#x151; helyzetbe ir&#xE1;ny&#xED;tja a robotot."/>
+    <LineBreak nWidth="6293" Line="bek&#xE9;r&#xE9;se ut&#xE1;n, a megfelel&#x151; helyzetbe ir&#xE1;ny&#xED;tja a robotot."/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceee3c9ee0" id="720" symbol="11SwTextFrame" next="719" prev="717" upper="688" txtNodeIndex="120" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="28219" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceed7b9440" id="719" symbol="11SwTextFrame" next="735" prev="720" upper="688" txtNodeIndex="121" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="28655" width="9072" height="712" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="532"/>
+    </infos>
+Van egy clear nevű függvény ami a vészleállást követően a kezdő pozícióba állítja a robotot.    <Text nLength="74" nType="PortionType::Para" nHeight="256" nWidth="8472" Portion="Van egy clear nev&#x171; f&#xFC;ggv&#xE9;ny ami a v&#xE9;szle&#xE1;ll&#xE1;st k&#xF6;vet&#x151;en a kezd&#x151; poz&#xED;ci&#xF3;ba "/>
+    <LineBreak nWidth="8472" Line="Van egy clear nev&#x171; f&#xFC;ggv&#xE9;ny ami a v&#xE9;szle&#xE1;ll&#xE1;st k&#xF6;vet&#x151;en a kezd&#x151; poz&#xED;ci&#xF3;ba "/>
+    <Text nLength="18" nType="PortionType::Lay" nHeight="256" nWidth="1752" Portion="&#xE1;ll&#xED;tja a robotot."/>
+    <LineBreak nWidth="1752" Line="&#xE1;ll&#xED;tja a robotot."/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceecc57df0" id="735" symbol="11SwTextFrame" next="701" prev="719" upper="688" txtNodeIndex="122" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="29367" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceec9a2a50" id="701" symbol="11SwTextFrame" next="702" prev="735" upper="688" txtNodeIndex="123" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="29803" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+Az alábbi linken megtalálható a python kód:    <Text nLength="43" nType="PortionType::Para" nHeight="256" nWidth="4865" Portion="Az al&#xE1;bbi linken megtal&#xE1;lhat&#xF3; a python k&#xF3;d:"/>
+    <LineBreak nWidth="4865" Line="Az al&#xE1;bbi linken megtal&#xE1;lhat&#xF3; a python k&#xF3;d:"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceecf8ceb0" id="702" symbol="11SwTextFrame" next="699" prev="701" upper="688" txtNodeIndex="124" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="30239" width="9072" height="712" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="532"/>
+    </infos>
+https://raw.githubusercontent.com/robotlabor-education/PontAz/main/06_Labor/self_drive.py    <Text nLength="76" nType="PortionType::Para" nHeight="256" nWidth="8843" Portion="https://raw.githubusercontent.com/robotlabor-education/PontAz/main/06_Labor/"/>
+    <LineBreak nWidth="8843" Line="https://raw.githubusercontent.com/robotlabor-education/PontAz/main/06_Labor/"/>
+    <Text nLength="13" nType="PortionType::Lay" nHeight="256" nWidth="1395" Portion="self_drive.py"/>
+    <LineBreak nWidth="1395" Line="self_drive.py"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceecca8840" id="699" symbol="11SwTextFrame" next="721" prev="702" upper="688" txtNodeIndex="125" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="30951" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceed1f0500" id="721" symbol="11SwTextFrame" next="697" prev="699" upper="688" txtNodeIndex="126" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="31387" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <Finish/>
+   </txt>
+   <txt ptr="0x55ceed719f90" id="697" symbol="11SwTextFrame" prev="721" upper="688" txtNodeIndex="127" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8464" top="31823" width="9072" height="436" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="9072" height="256"/>
+    </infos>
+    <Finish/>
+   </txt>
+  </body>
+ </page>
+</root>
