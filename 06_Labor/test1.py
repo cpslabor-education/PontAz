@@ -3,6 +3,8 @@
 
 # Import Ev3dev packages
 #from keyboard import on_press
+
+
 from ev3dev2.motor import LargeMotor,\
                           MediumMotor,\
                           SpeedPercent,\
@@ -20,6 +22,8 @@ from ev3dev2.sensor.lego import ColorSensor,\
 from ev3dev2.button import Button
 
 from ev3dev2.led import Leds
+
+from ev3dev2.sound import Sound
 
 # Import other packages
 import time
@@ -39,13 +43,16 @@ headMotor = MediumMotor(OUTPUT_C)
 leftDriveMotor = LargeMotor(OUTPUT_B)
 rightDriveMotor = LargeMotor(OUTPUT_A)
 
-headSensor = None
+speak = Sound()
 
+headSensor = None
+"""
 if IR_SENSOR:
     headSensor = InfraredSensor()
     pass
 else:
-    headSensor = UltrasonicSensor()
+"""
+headSensor = UltrasonicSensor()
 
 leds = Leds()
 
@@ -78,20 +85,20 @@ def driving(value):
     while running:
         print(value, "Driving...")
         if driving_value == 0:
-            leftDriveMotor.on(SpeedPercent(20), brake=False, block=False)
-            rightDriveMotor.on(SpeedPercent(20), brake=False, block=False)
+            leftDriveMotor.on(SpeedPercent(-20), brake=False, block=False)
+            rightDriveMotor.on(SpeedPercent(-20), brake=False, block=False)
         elif driving_value == 1:
-            rightDriveMotor.on(SpeedPercent(-50), brake=False, block=False) # -50 false false
+            rightDriveMotor.on(SpeedPercent(50), brake=False, block=False) # -50 false false
             leftDriveMotor.on(SpeedPercent(driving_position), brake=False, block=False)
             if current_proximity < 25:
-                speed = ((current_proximity-30))
+                speed = ((current_proximity-30)-(2*(current_proximity-30)))
                 leftDriveMotor.on(SpeedPercent(speed), brake=False, block=False)
                 rightDriveMotor.on(SpeedPercent(speed), brake=False, block=False)
         elif driving_value == -1:
             leftDriveMotor.on(SpeedPercent(50), brake=False, block=False)
             rightDriveMotor.on(SpeedPercent(driving_position), brake=False, block=False)
             if current_proximity < 25:
-                speed = ((current_proximity-30))
+                speed = ((current_proximity-30)-(2*(current_proximity-30)))
                 leftDriveMotor.on(SpeedPercent(speed), brake=False, block=False)
                 rightDriveMotor.on(SpeedPercent(speed), brake=False, block=False)
         
@@ -103,6 +110,7 @@ t1 = threading.Thread(target=driving, args=(1,))
 def main():
     # Define local variables
     print('Initializing...')
+    speak.speak('Indulás')
     leds.set_color("LEFT", "ORANGE")
     leds.set_color("RIGHT", "ORANGE")
     global driving_value
@@ -130,6 +138,7 @@ def main():
     leds.set_color("LEFT", "GREEN")
     leds.set_color("RIGHT", "GREEN")
     print('Starting Loop...')
+    speak.speak('Igen')
     t1.daemon = True
     t1.start()
     # Loop start
@@ -148,10 +157,7 @@ def main():
         )
 
         # Read the head sensor
-        if IR_SENSOR:
-            current_proximity = headSensor.proximity
-        else:
-            current_proximity = headSensor.distance_centimeters
+        current_proximity = headSensor.distance_centimeters
 
         driving_position = headMotor.position
 
@@ -162,6 +168,7 @@ def main():
         print("driving_value: ", driving_value, "driving_pos: ", driving_position, "cur_prox: ", current_proximity)
 
         loop += 1
+        speak.speak('A')
         time.sleep(0.01)
     
 #    keys = None
