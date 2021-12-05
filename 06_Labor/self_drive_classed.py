@@ -6,38 +6,51 @@
 
 # Import packages
 
-import ev3dev2
+from ev3dev2.motor import *
+from ev3dev2.sensor.lego import *
+from ev3dev2.led import *
+from ev3dev2.sound import *
 import time
 import threading
 
 # Using ir_sensor or ul_sensor
-SENSOR_TYPE = "ul_sensor"
+SENSOR_TYPE = "ir_sensor"
+# Using the home robot or the labor robot
+BOT_TYPE = "home"
+
+# Define the used motors
+HEAD_MOTOR = OUTPUT_C
+LEFT_DRIVE_MOTOR = OUTPUT_B
+RIGHT_DRIVE_MOTOR = OUTPUT_A
 
 class self_drive():
 
-    def __init__(self):
+    def __init__(self, headMotor, leftDriveMotor, rightDriveMotor):
         self.isInitialized = False
         self._running = False
+
+        #self.__l = LargeMotor
+        #self.__m = MediumMotor
         
-        self._headMotor = ev3dev2.motor.MediumMotor(ev3dev2.motor.OUTPUT_C)
-        self._leftDriveMotor = ev3dev2.motor.LargeMotor(ev3dev2.motor.OUTPUT_B)
-        self._rightDriveMotor = ev3dev2.motor.LargeMotor(ev3dev2.motor.OUTPUT_A)
+        self._headMotor = headMotor
+        self._leftDriveMotor = leftDriveMotor
+        self._rightDriveMotor = rightDriveMotor
 
         self._headSensor = None
         if SENSOR_TYPE == "ir_sensor":
-            self._headSensor = ev3dev2.sensor.lego.InfraredSensor()
+            self._headSensor = InfraredSensor()
         elif SENSOR_TYPE == "ul_sensor":
-            self._headSensor = ev3dev2.sensor.lego.UltrasonicSensor()
+            self._headSensor = UltrasonicSensor()
         else:
             raise ValueError('SENSOR_TYPE is ir_sensor or ul_sensor only')
         
-        self._leds = ev3dev2.led.Leds()
+        self._leds = Leds()
 
-        self._speaker = ev3dev2.sound.Sound()
+        self._speaker = Sound()
 
-        self._touchSensor = ev3dev2.sensor.lego.TouchSensor()
+        self._touchSensor = TouchSensor()
 
-        self._sper = ev3dev2.motor.SpeedPercent
+        self._sper = SpeedPercent
 
         self._driving_value = 0
         self._driving_position = 0
@@ -64,7 +77,7 @@ class self_drive():
     def setup(self):
 
         print('Initializing...')
-        self._speaker.play_file('cucc.wav')
+        self._speaker.play_file('cucc.wav', play_type=Sound.PLAY_NO_WAIT_FOR_COMPLETE)
         self._leds.set_color("LEFT", "ORANGE")
         self._leds.set_color("RIGHT", "ORANGE")
 
@@ -111,7 +124,7 @@ class self_drive():
             if SENSOR_TYPE == "ir_sensor":
                 self._current_proximity = self._headSensor.proximity
             elif SENSOR_TYPE == "ul_sensor":
-                self._current_proximity = self._headSensor.disstance_centimeters
+                self._current_proximity = self._headSensor.distance_centimeters
             else:
                 raise ValueError('SENSOR_TYPE is ir_sensor or ul_sensor only')
 
@@ -140,13 +153,14 @@ class self_drive():
         self._headMotor.position_sp = 0
         self._headMotor.speed_sp = self._fast_proximity
         self._headMotor.stop_action = 'hold'
-        self._headMotor.run_to_abss_pos()
-        self._time.sleep(1)
+        self._headMotor.run_to_abs_pos()
+        self._time.sleep(3)
         
         self._leftDriveMotor.off()
         self._rightDriveMotor.off()
         self._leds.set_color("LEFT", "GREEN")
         self._leds.set_color("RIGHT", "GREEN")
+        exit()
 
     def driving(self):
         self._leftDriveMotor.stop_action = "coast"
@@ -154,24 +168,24 @@ class self_drive():
 
         while self._running:
             if self._driving_value == 0:
-                self._leftDriveMotor.on(self._sper(self._normal_driving_speed), brake=False, block=False)
-                self._rightDriveMotor.on(self._sper(self._normal_driving_speed), brake=False, block=False)
+                self._leftDriveMotor.on(self._sper(self._normal_driving_speed if BOT_TYPE == "labor" else -self._normal_driving_speed), brake=False, block=False)
+                self._rightDriveMotor.on(self._sper(self._normal_driving_speed if BOT_TYPE == "labor" else -self._normal_driving_speed), brake=False, block=False)
             elif self._driving_value == 1:
-                self._rightDriveMotor.on(self._sper(-self._turn_driving_speed), brake=False, block=False)
-                self._leftDriveMotor.on(self._sper(self._driving_position), brake=False, block=False)
+                self._rightDriveMotor.on(self._sper(-self._turn_driving_speed if BOT_TYPE == "labor" else self._turn_driving_speed), brake=False, block=False)
+                self._leftDriveMotor.on(self._sper(self._driving_position if BOT_TYPE == "labor" else -self._driving_position), brake=False, block=False)
                 if self._current_proximity < self._target_proximity:
-                    speed = (self._current_proximity-30)
+                    speed = (self._current_proximity-30) if BOT_TYPE == "labor" else ((self._current_proximity-30)-2*(self._current_proximity-30))
                     self._rightDriveMotor.on(self._sper(speed), brake=False, block=False)
                     self._leftDriveMotor.on(self._sper(speed), brake=False, block=False)
             elif self._driving_value == -1:
-                self._leftDriveMotor.on(self._sper(-self._turn_driving_speed), brake=False, block=False)
-                self._rightDriveMotor.on(self._sper(self._driving_position), brake=False, block=False)
+                self._leftDriveMotor.on(self._sper(-self._turn_driving_speed if BOT_TYPE == "labor" else self._turn_driving_speed), brake=False, block=False)
+                self._rightDriveMotor.on(self._sper(-self._driving_position if BOT_TYPE == "labor" else self._driving_position), brake=False, block=False)
                 if self._current_proximity < self._target_proximity:
-                    speed = (self._current_proximity-30)
+                    speed = (self._current_proximity-30) if BOT_TYPE == "labor" else ((self._current_proximity-30)-2*(self._current_proximity-30))
                     self._leftDriveMotor.on(self._sper(speed), brake=False, block=False)
                     self._rightDriveMotor.on(self._sper(speed), brake=False, block=False)
 
-    def calculate_dir(neg_low_bound,\
+    def calculate_dir(self,neg_low_bound,\
                   neg_high_bound,\
                   dist_low,\
                   dist_high,\
@@ -186,7 +200,9 @@ class self_drive():
 
 
 def main():
-    robot = self_drive()
+    robot = self_drive(MediumMotor(HEAD_MOTOR),\
+                       LargeMotor(LEFT_DRIVE_MOTOR),\
+                       LargeMotor(RIGHT_DRIVE_MOTOR))
     robot.setup()
     robot.loop()
     robot.clear()
